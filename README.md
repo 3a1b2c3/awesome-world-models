@@ -47,13 +47,13 @@ Open-Sora’s methodology revolves around a comprehensive training pipeline inco
 * *Project:* https://github.com/PKU-YuanGroup/Open-Sora-Plan
   
 ## Navigation World Models
-Amir BarGaoyue ZhouDanny TranTrevor DarrellYann LeCun meta
-Navigation is a fundamental skill of agents with visual-motor capabilities. We introduce a Navigation World Model (NWM), a controllable video generation model that predicts future visual observations…
+Navigation is a fundamental skill of agents with visual-motor capabilities. We introduce a Navigation World Model (NWM), a controllable video generation model that predicts future visual observation
+
 * *Paper:* https://arxiv.org/pdf/2410.10774
 * *Project:* https://www.amirbar.net/nwm/
 
 ## DINO-WM: World Models on Pre-trained Visual Features enable Zero-shot Planning (from NYU)
-We introduce a simple method for constructing versatile world models with pre-trained DINOv2 that generalize to complex environment dynamics, which enables zero-shot solutions at test time for arbitrary goals.
+We introduce a simple method for constructing versatile world models with pre-trained DINOv2 that generalize to complex environment dynamics, which enables zero-shot solutions at test time for arbitrary goals
 
 * *Paper:* https://arxiv.org/pdf/2411.04983
 
@@ -70,7 +70,7 @@ Infinite-Horizon World Generation with Real-Time Interaction
 * *Paper:* https://thematrix1999.github.io/article/the_matrix.pdf
   
 ## GameGen-X: Interactive Open-world Game Video Generation
-We introduce GameGen-X, the first diffusion transformer model specifically designed for both generating and interactively controlling open-world game videos.
+We introduce GameGen-X, the first diffusion transformer model specifically designed for both generating and interactively controlling open-world game videos
 
 * *Paper:* https://arxiv.org/abs/2411.00769
 
@@ -80,13 +80,14 @@ DIAMOND, a diffusion world model, to train sample-efficient RL agents on Atari 1
 * *Demo:* https://next.journee.ai/xyz-diamond
 
 ## Efficient World Models with Context-Aware Tokenization
-* *Project:* https://github.com/vmicheli/delta-iris
 Scaling up deep Reinforcement Learning (RL) methods presents a significant challenge. Following developments in generative modelling, model-based RL positions itself as a strong contender. 
 
+* *Project:* https://github.com/vmicheli/delta-iris
+  
 ## AVID: Adapting Video Diffusion Models to World Models
-* *Paper:* https://arxiv.org/pdf/2410.12822
+The key idea behind AVID is to adapt the video diffusion model to better understand and represent the real world.
 
-Large-scale generative models have achieved remarkable success in a number of domains. However, for sequential decision-making problems, such as robotics, action-labelled data is often scarce and…
+* *Paper:* https://arxiv.org/pdf/2410.12822
 
 ## Cavia: Camera-controllable Multi-view Video Diffusion with View-Integrated Attention
 We present Cavia, the first framework that enables users to generate multiple videos of the same scene with precise control over camera motion, while simultaneously preserving object motion.
