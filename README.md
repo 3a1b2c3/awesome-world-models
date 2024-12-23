@@ -1,4 +1,4 @@
-# awesome-world-models
+# awesome-world-models 2024
 #TOC
 
 ## Yann LeCun's defintion is a bit techical
@@ -174,7 +174,8 @@ https://lilianweng.github.io/posts/2024-04-12-diffusion-video/
 - https://arxiv.org/abs/2106.10270
 Masked Autoencoders: A PyTorch Implementation https://github.com/facebookresearch/mae/blob/main/models_vit.py
 
-
+## World models 2023 and before
+https://github.com/PatrickHua/Awesome-World-Models
 
 Each patch will make a token of length 400.
 
