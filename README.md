@@ -1,6 +1,5 @@
 # awesome-world-models 2024
-[TOC]
-
+[[_TOC_]]
 ## Yann LeCun's defintion is a bit techical
 Lots of confusion about what a world model is. Here is my definition: 
 
