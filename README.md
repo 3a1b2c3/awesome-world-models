@@ -65,6 +65,7 @@ Learning Generative Interactive Environments by Trained Agent Exploration
 
 ## The Matrix: Infinite-Horizon World Generation with Real-Time Moving Control
 Infinite-Horizon World Generation with Real-Time Interaction
+We present The Matrix, the first foundational realistic world simulator capable of generating continuous 720p high-fidelity real-scene video streams with real-time, responsive control in both first- and third-person perspectives, enabling immersive exploration of richly dynamic environments.
 
 * *Project:* https://thematrix1999.github.io/
 * *Paper:* https://thematrix1999.github.io/article/the_matrix.pdf
@@ -76,6 +77,7 @@ We introduce GameGen-X, the first diffusion transformer model specifically desig
 
 ## Diffusion for World Modeling: Visual Details Matter in Atari  DIAMOND
 DIAMOND, a diffusion world model, to train sample-efficient RL agents on Atari 100k.
+
 * *Project and code:* https://github.com/eloialonso/diamond
 * *Demo:* https://next.journee.ai/xyz-diamond
 
