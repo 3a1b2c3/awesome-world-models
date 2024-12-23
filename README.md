@@ -1,5 +1,6 @@
 # awesome-world-models 2024
 [[_TOC_]]
+
 ## Yann LeCun's defintion is a bit techical
 Lots of confusion about what a world model is. Here is my definition: 
 
@@ -30,9 +31,6 @@ s(t) = [x(t),x(t-1),...x(t-k)]
 x(t+1) = Pred( s(t), z(t) )
 There is no collapse issue in that case.
 
-## 101: Start here
-World Models: the AI technology that could displace 3D as we know it
-
 ## Commercial, no code or papers
 * https://odyssey.systems/introducing-explorer#waitlist
 * https://www.worldlabs.ai/blog
@@ -60,13 +58,8 @@ Amir BarGaoyue ZhouDanny TranTrevor DarrellYann LeCun meta
 Navigation is a fundamental skill of agents with visual-motor capabilities. We introduce a Navigation World Model (NWM), a controllable video generation model that predicts future visual observations…
 * https://arxiv.org/pdf/2410.10774
 * https://www.amirbar.net/nwm/
-
-
-
-
-
-
-DINO-WM: World Models on Pre-trained Visual Features enable Zero-shot Planning (from NYU)
+* 
+## DINO-WM: World Models on Pre-trained Visual Features enable Zero-shot Planning (from NYU)
 https://arxiv.org/pdf/2411.04983
 
 
@@ -82,17 +75,17 @@ From Slow Bidirectional to Fast Causal Video Generators
 
 
 
-Learning Generative Interactive Environments by Trained Agent Exploration
+## Learning Generative Interactive Environments by Trained Agent Exploration
 https://github.com/insait-institute/GenieRedux
 https://arxiv.org/pdf/2409.06445
 
 
-𝐆𝐞𝐧𝐢𝐞𝐑𝐞𝐝𝐮𝐱 learns to simulate interactive environments simply by observing interactions during training.
+## 𝐆𝐞𝐧𝐢𝐞𝐑𝐞𝐝𝐮𝐱 learns to simulate interactive environments simply by observing interactions during training.
 
 
 
 
-The Matrix: Infinite-Horizon World Generation with Real-Time Moving Control
+## The Matrix: Infinite-Horizon World Generation with Real-Time Moving Control
 No code
 https://thematrix1999.github.io/
 
@@ -106,13 +99,13 @@ https://thematrix1999.github.io/
 
 
 
-GameGen-X: Interactive Open-world Game Video Generation
+## GameGen-X: Interactive Open-world Game Video Generation
 Haoxuan CheXuanhua HeQuande LiuCheng JinHao Chen
 Computer Science
 arXiv.org1 November 2024
 We introduce GameGen-X, the first diffusion transformer model specifically designed for both generating and interactively controlling open-world game videos. This model facilitates high-quality,…
 
-Diffusion for World Modeling: Visual Details Matter in Atari  DIAMOND, code
+## Diffusion for World Modeling: Visual Details Matter in Atari  DIAMOND, code
 Eloi AlonsoAdam Jelley
 https://github.com/eloialonso/diamond
 
@@ -122,7 +115,7 @@ https://github.com/eloialonso/diamond
 
 
 
-Efficient World Models with Context-Aware Tokenization
+## Efficient World Models with Context-Aware Tokenization
 https://github.com/vmicheli/delta-iris
 
 
@@ -134,7 +127,7 @@ https://github.com/vmicheli/delta-iris
 Vincent MicheliEloi AlonsoFranccois Fleuret
 Scaling up deep Reinforcement Learning (RL) methods presents a significant challenge. Following developments in generative modelling, model-based RL positions itself as a strong contender. 
 
-AVID: Adapting Video Diffusion Models to World Models
+## AVID: Adapting Video Diffusion Models to World Models
 Marc RigterTarun GuptaAgrin HilmkilChao Ma
 https://arxiv.org/pdf/2410.12822
 
@@ -146,15 +139,18 @@ Large-scale generative models have achieved remarkable success in a number of do
 
 
 
-Cavia: Camera-controllable Multi-view Video Diffusion with View-Integrated Attention
+## Cavia: Camera-controllable Multi-view Video Diffusion with View-Integrated Attention
 No code
 
 
 
 
 
+## World models 2023 and before
+https://github.com/PatrickHua/Awesome-World-Models
 
-Basic Dit "Scalable Diffusion Models with Transformers" 
+## Basic 
+### Dit "Scalable Diffusion Models with Transformers" 
 https://github.com/facebookresearch/DiT
 https://arxiv.org/pdf/2212.09748
 OpenDiT: An acceleration for DiT training. We adopt valuable acceleration strategies for training progress from OpenDiT.
@@ -172,18 +168,3 @@ https://lilianweng.github.io/posts/2024-04-12-diffusion-video/
 `How to train your ViT? Data, Augmentation, and Regularization in Vision Transformers`
 - https://arxiv.org/abs/2106.10270
 Masked Autoencoders: A PyTorch Implementation https://github.com/facebookresearch/mae/blob/main/models_vit.py
-
-## World models 2023 and before
-https://github.com/PatrickHua/Awesome-World-Models
-
-Each patch will make a token of length 400.
-
-Vit tokens
-
-Vit
-https://github.com/huggingface/pytorch-image-models/blob/main/timm/models/vision_transformer.py
-
-
-
-Dit
-
