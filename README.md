@@ -30,11 +30,11 @@ x(t+1) = Pred( s(t), z(t) )
 There is no collapse issue in that case.
 
 ## Commercial world models, no code or papers
-* https://odyssey.systems/introducing-explorer#waitlist
-* https://www.worldlabs.ai/blog
-* https://deepmind.google/discover/blog/genie-2-a-large-scale-foundation-world-model/* 
-* https://deepmind.google/technologies/veo/veo-2/
-* https://openai.com/sora/ Is Sora a World Simulator? A Comprehensive Survey on General World Models and Beyond (from GigaAI)
+* odyssey https://odyssey.systems/introducing-explorer#waitlist
+* worldlabs https://www.worldlabs.ai/blog
+* genie-2 https://deepmind.google/discover/blog/genie-2-a-large-scale-foundation-world-model/* 
+* veo-2 https://deepmind.google/technologies/veo/veo-2/
+* sora https://openai.com/sora/ Is Sora a World Simulator? A Comprehensive Survey on General World Models and Beyond (from GigaAI)
 
 ## Playable demos 
 * https://next.journee.ai/xyz-diamond
@@ -42,27 +42,25 @@ There is no collapse issue in that case.
 
 ## Papers and code
 ### OpenSora
-* https://hpcaitech.github.io/Open-Sora/ no windows, 24 GB RAM+
-* https://github.com/PKU-YuanGroup/Open-Sora-Plan
+* *Project:* https://hpcaitech.github.io/Open-Sora/ no windows, 24 GB RAM+
 Open-Sora’s methodology revolves around a comprehensive training pipeline incorporating video compression, denoising, and decoding stages to process and generate video content efficiently. Using a video compression network, the model compresses videos into sequences of spatial-temporal patches in latent space, then refined through a Diffusion Transformer for denoising, followed by decoding to produce the final video output. This innovative approach allows for handling various sizes and complexities of videos with improved efficiency and reduced computational demands.
-
+* *Project:* https://github.com/PKU-YuanGroup/Open-Sora-Plan
+* 
 ## Navigation World Models
 Amir BarGaoyue ZhouDanny TranTrevor DarrellYann LeCun meta
 Navigation is a fundamental skill of agents with visual-motor capabilities. We introduce a Navigation World Model (NWM), a controllable video generation model that predicts future visual observations…
 * *Paper:* https://arxiv.org/pdf/2410.10774
-* https://www.amirbar.net/nwm/
+* *Project:* https://www.amirbar.net/nwm/
 
 ## DINO-WM: World Models on Pre-trained Visual Features enable Zero-shot Planning (from NYU)
+We introduce a simple method for constructing versatile world models with pre-trained DINOv2 that generalize to complex environment dynamics, which enables zero-shot solutions at test time for arbitrary goals.
 * *Paper:* https://arxiv.org/pdf/2411.04983
 
 ## Learning Generative Interactive Environments by Trained Agent Exploration
+Learning Generative Interactive Environments by Trained Agent Exploration
 * *Project:* https://github.com/insait-institute/GenieRedux
 * *Paper:* https://arxiv.org/pdf/2409.06445
 
-## 𝐆𝐞𝐧𝐢𝐞𝐑𝐞𝐝𝐮𝐱 learns to simulate interactive environments simply by observing interactions during training
-Learning Generative Interactive Environments by Trained Agent Exploration
-* *Paper:* https://github.com/insait-institute/GenieRedux
-  
 ## The Matrix: Infinite-Horizon World Generation with Real-Time Moving Control
 Infinite-Horizon World Generation with Real-Time Interaction
 * *Project:* https://thematrix1999.github.io/
