@@ -1,5 +1,5 @@
 # awesome-world-models
- Yann LeCun
+## Yann LeCun's defintion is a bit techical
 Lots of confusion about what a world model is. Here is my definition: 
 
 Given:
@@ -44,4 +44,4 @@ Is Sora a World Simulator? A Comprehensive Survey on General World Models and Be
 https://next.journee.ai/xyz-diamond
 https://oasis.decart.ai/welcome
 
-##
+## Papers
