@@ -32,9 +32,9 @@ There is no collapse issue in that case.
 ## Commercial world models, no code or papers
 * odyssey https://odyssey.systems/introducing-explorer#waitlist
 * worldlabs https://www.worldlabs.ai/blog
-* genie-2 https://deepmind.google/discover/blog/genie-2-a-large-scale-foundation-world-model/* 
-* veo-2 https://deepmind.google/technologies/veo/veo-2/
-* sora https://openai.com/sora/ Is Sora a World Simulator? A Comprehensive Survey on General World Models and Beyond (from GigaAI)
+* google genie-2 https://deepmind.google/discover/blog/genie-2-a-large-scale-foundation-world-model/* 
+* google veo-2 https://deepmind.google/technologies/veo/veo-2/
+* openai sora https://openai.com/sora/ Is Sora a World Simulator? A Comprehensive Survey on General World Models and Beyond (from GigaAI)
 
 ## Playable demos 
 * https://next.journee.ai/xyz-diamond
@@ -45,7 +45,7 @@ There is no collapse issue in that case.
 * *Project:* https://hpcaitech.github.io/Open-Sora/ no windows, 24 GB RAM+
 Open-Sora’s methodology revolves around a comprehensive training pipeline incorporating video compression, denoising, and decoding stages to process and generate video content efficiently. Using a video compression network, the model compresses videos into sequences of spatial-temporal patches in latent space, then refined through a Diffusion Transformer for denoising, followed by decoding to produce the final video output. This innovative approach allows for handling various sizes and complexities of videos with improved efficiency and reduced computational demands.
 * *Project:* https://github.com/PKU-YuanGroup/Open-Sora-Plan
-* 
+  
 ## Navigation World Models
 Amir BarGaoyue ZhouDanny TranTrevor DarrellYann LeCun meta
 Navigation is a fundamental skill of agents with visual-motor capabilities. We introduce a Navigation World Model (NWM), a controllable video generation model that predicts future visual observations…
@@ -54,24 +54,30 @@ Navigation is a fundamental skill of agents with visual-motor capabilities. We i
 
 ## DINO-WM: World Models on Pre-trained Visual Features enable Zero-shot Planning (from NYU)
 We introduce a simple method for constructing versatile world models with pre-trained DINOv2 that generalize to complex environment dynamics, which enables zero-shot solutions at test time for arbitrary goals.
+
 * *Paper:* https://arxiv.org/pdf/2411.04983
 
 ## Learning Generative Interactive Environments by Trained Agent Exploration
 Learning Generative Interactive Environments by Trained Agent Exploration
+
 * *Project:* https://github.com/insait-institute/GenieRedux
 * *Paper:* https://arxiv.org/pdf/2409.06445
 
 ## The Matrix: Infinite-Horizon World Generation with Real-Time Moving Control
 Infinite-Horizon World Generation with Real-Time Interaction
+
 * *Project:* https://thematrix1999.github.io/
 * *Paper:* https://thematrix1999.github.io/article/the_matrix.pdf
   
 ## GameGen-X: Interactive Open-world Game Video Generation
-We introduce GameGen-X, the first diffusion transformer model specifically designed for both generating and interactively controlling open-world game videos. This model facilitates high-quality,…
+We introduce GameGen-X, the first diffusion transformer model specifically designed for both generating and interactively controlling open-world game videos.
+
 * *Paper:* https://arxiv.org/abs/2411.00769
 
-## Diffusion for World Modeling: Visual Details Matter in Atari  DIAMOND, code
-* *Project:* https://github.com/eloialonso/diamond
+## Diffusion for World Modeling: Visual Details Matter in Atari  DIAMOND
+DIAMOND, a diffusion world model, to train sample-efficient RL agents on Atari 100k.
+* *Project and code:* https://github.com/eloialonso/diamond
+* *Demo:* https://next.journee.ai/xyz-diamond
 
 ## Efficient World Models with Context-Aware Tokenization
 * *Project:* https://github.com/vmicheli/delta-iris
@@ -100,16 +106,15 @@ paper demo code
 
 ## Basic 
 ### ViT: Transformers for Image Recognition [Paper] [Blog] [Video]
-https://lilianweng.github.io/posts/2024-04-12-diffusion-video/
 'An Image Is Worth 16 x 16 Words: Transformers for Image Recognition at Scale'
-- https://arxiv.org/abs/2010.11929
+* *Paper:* https://arxiv.org/abs/2010.11929
 `How to train your ViT? Data, Augmentation, and Regularization in Vision Transformers`
 * *Paper:*  https://arxiv.org/abs/2106.10270
 Masked Autoencoders: A PyTorch Implementation https://github.com/facebookresearch/mae/blob/main/models_vit.py
 
 
 ### Dit "Scalable Diffusion Models with Transformers" 
-* *Project:*https://github.com/facebookresearch/DiT
+* *Project:* https://github.com/facebookresearch/DiT
 * *Paper:* https://arxiv.org/pdf/2212.09748
 OpenDiT: An acceleration for DiT training. We adopt valuable acceleration strategies for training progress from OpenDiT.
 
