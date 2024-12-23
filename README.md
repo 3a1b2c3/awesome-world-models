@@ -3,7 +3,6 @@
 
 ## Yann LeCun's defintion is a bit techical
 Lots of confusion about what a world model is. Here is my definition: 
-
 Given:
 - an observation x(t)
 - a previous estimate of the state of the world s(t)
@@ -19,7 +18,6 @@ Where
 - the latent variable z(t) represents the unknown information that would allow us to predict exactly what happens. It must be sampled from a distribution or or varied over a set. It parameterizes the set (or distribution) of plausible predictions.
 
 The trick is to train the entire thing from observation triplets (x(t),a(t),x(t+1)) while preventing the Encoder from collapsing to a trivial solution on which it ignores the input.
-
 Auto-regressive generative models (such as LLMs) are a simplified special case in which
 1. the Encoder is the identity function: h(t) = x(t),
 2. the state is a window of past inputs 
@@ -39,8 +37,8 @@ There is no collapse issue in that case.
 * https://openai.com/sora/ Is Sora a World Simulator? A Comprehensive Survey on General World Models and Beyond (from GigaAI)
 
 ## Playable demos 
-https://next.journee.ai/xyz-diamond
-https://oasis.decart.ai/welcome
+* https://next.journee.ai/xyz-diamond
+* https://oasis.decart.ai/welcome
 
 ## Papers and code
 ### OpenSora
@@ -58,8 +56,8 @@ Navigation is a fundamental skill of agents with visual-motor capabilities. We i
 * *Paper:* https://arxiv.org/pdf/2411.04983
 
 ## Learning Generative Interactive Environments by Trained Agent Exploration
-* https://github.com/insait-institute/GenieRedux
-* *Paper:*https://arxiv.org/pdf/2409.06445
+* *Project:* https://github.com/insait-institute/GenieRedux
+* *Paper:* https://arxiv.org/pdf/2409.06445
 
 ## 𝐆𝐞𝐧𝐢𝐞𝐑𝐞𝐝𝐮𝐱 learns to simulate interactive environments simply by observing interactions during training
 Learning Generative Interactive Environments by Trained Agent Exploration
@@ -67,7 +65,7 @@ Learning Generative Interactive Environments by Trained Agent Exploration
   
 ## The Matrix: Infinite-Horizon World Generation with Real-Time Moving Control
 Infinite-Horizon World Generation with Real-Time Interaction
-* https://thematrix1999.github.io/
+* *Project:* https://thematrix1999.github.io/
 * *Paper:* https://thematrix1999.github.io/article/the_matrix.pdf
   
 ## GameGen-X: Interactive Open-world Game Video Generation
@@ -78,7 +76,7 @@ We introduce GameGen-X, the first diffusion transformer model specifically desig
 * *Project:* https://github.com/eloialonso/diamond
 
 ## Efficient World Models with Context-Aware Tokenization
-* https://github.com/vmicheli/delta-iris
+* *Project:* https://github.com/vmicheli/delta-iris
 Scaling up deep Reinforcement Learning (RL) methods presents a significant challenge. Following developments in generative modelling, model-based RL positions itself as a strong contender. 
 
 ## AVID: Adapting Video Diffusion Models to World Models
@@ -96,22 +94,24 @@ paper demo code
     A lightweight, ultra-fast, pythonic, and user-friendly robotics simulation platform.
     A powerful and fast photo-realistic rendering system.
     A generative data engine that transforms user-prompted natural language description into various modalities of data.
-* https://github.com/Genesis-Embodied-AI/Genesis
+* *Project:* https://github.com/Genesis-Embodied-AI/Genesis
 
 ## World models 2023 and before
 * See https://github.com/PatrickHua/Awesome-World-Models
 * https://github.com/GigaAI-research/General-World-Models-Survey
 
 ## Basic 
-### Dit "Scalable Diffusion Models with Transformers" 
-https://github.com/facebookresearch/DiT
-* *Paper:* https://arxiv.org/pdf/2212.09748
-OpenDiT: An acceleration for DiT training. We adopt valuable acceleration strategies for training progress from OpenDiT.
-
 ### ViT: Transformers for Image Recognition [Paper] [Blog] [Video]
 https://lilianweng.github.io/posts/2024-04-12-diffusion-video/
 'An Image Is Worth 16 x 16 Words: Transformers for Image Recognition at Scale'
 - https://arxiv.org/abs/2010.11929
 `How to train your ViT? Data, Augmentation, and Regularization in Vision Transformers`
-- https://arxiv.org/abs/2106.10270
+* *Paper:*  https://arxiv.org/abs/2106.10270
 Masked Autoencoders: A PyTorch Implementation https://github.com/facebookresearch/mae/blob/main/models_vit.py
+
+
+### Dit "Scalable Diffusion Models with Transformers" 
+* *Project:*https://github.com/facebookresearch/DiT
+* *Paper:* https://arxiv.org/pdf/2212.09748
+OpenDiT: An acceleration for DiT training. We adopt valuable acceleration strategies for training progress from OpenDiT.
+
