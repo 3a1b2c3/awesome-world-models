@@ -47,73 +47,65 @@ https://oasis.decart.ai/welcome
 * https://hpcaitech.github.io/Open-Sora/ no windows, 24 GB RAM+
 * https://github.com/PKU-YuanGroup/Open-Sora-Plan
 Open-Sora’s methodology revolves around a comprehensive training pipeline incorporating video compression, denoising, and decoding stages to process and generate video content efficiently. Using a video compression network, the model compresses videos into sequences of spatial-temporal patches in latent space, then refined through a Diffusion Transformer for denoising, followed by decoding to produce the final video output. This innovative approach allows for handling various sizes and complexities of videos with improved efficiency and reduced computational demands.
-The performance of Open-Sora is noteworthy, showcasing over a 40% improvement in efficiency and cost reduction compared to baseline solutions. Furthermore, it enables the training of longer sequences, up to 819K+ patches, while maintaining or even enhancing training speeds. This performance leap demonstrates the solution’s capability to address the challenges of computational cost and resource efficiency in AI video generation. It also reassures the audience about its practicality and value, making high-quality video production more accessible to a wider range of users.
-
 
 ## Navigation World Models
 Amir BarGaoyue ZhouDanny TranTrevor DarrellYann LeCun meta
 Navigation is a fundamental skill of agents with visual-motor capabilities. We introduce a Navigation World Model (NWM), a controllable video generation model that predicts future visual observations…
-* https://arxiv.org/pdf/2410.10774
+* *Paper:* https://arxiv.org/pdf/2410.10774
 * https://www.amirbar.net/nwm/
 
 ## DINO-WM: World Models on Pre-trained Visual Features enable Zero-shot Planning (from NYU)
-* https://arxiv.org/pdf/2411.04983
-
-
-
-
-
-
-
-
-From Slow Bidirectional to Fast Causal Video Generators
-
-
-
-
+* *Paper:* https://arxiv.org/pdf/2411.04983
 
 ## Learning Generative Interactive Environments by Trained Agent Exploration
 * https://github.com/insait-institute/GenieRedux
-* https://arxiv.org/pdf/2409.06445
+* *Paper:*https://arxiv.org/pdf/2409.06445
 
-## 𝐆𝐞𝐧𝐢𝐞𝐑𝐞𝐝𝐮𝐱 learns to simulate interactive environments simply by observing interactions during training.
-"Learning Generative Interactive Environments by Trained Agent Exploration"
-*
+## 𝐆𝐞𝐧𝐢𝐞𝐑𝐞𝐝𝐮𝐱 learns to simulate interactive environments simply by observing interactions during training
+Learning Generative Interactive Environments by Trained Agent Exploration
+* *Paper:* https://github.com/insait-institute/GenieRedux
+  
 ## The Matrix: Infinite-Horizon World Generation with Real-Time Moving Control
-No code
+Infinite-Horizon World Generation with Real-Time Interaction
 * https://thematrix1999.github.io/
-
+* *Paper:* https://thematrix1999.github.io/article/the_matrix.pdf
+  
 ## GameGen-X: Interactive Open-world Game Video Generation
-Haoxuan CheXuanhua HeQuande LiuCheng JinHao Chen
-* 
 We introduce GameGen-X, the first diffusion transformer model specifically designed for both generating and interactively controlling open-world game videos. This model facilitates high-quality,…
+* *Paper:* https://arxiv.org/abs/2411.00769
 
 ## Diffusion for World Modeling: Visual Details Matter in Atari  DIAMOND, code
-Eloi AlonsoAdam Jelley
-* https://github.com/eloialonso/diamond
+* *Project:* https://github.com/eloialonso/diamond
 
 ## Efficient World Models with Context-Aware Tokenization
 * https://github.com/vmicheli/delta-iris
-Vincent MicheliEloi AlonsoFranccois Fleuret
 Scaling up deep Reinforcement Learning (RL) methods presents a significant challenge. Following developments in generative modelling, model-based RL positions itself as a strong contender. 
 
 ## AVID: Adapting Video Diffusion Models to World Models
-Marc RigterTarun GuptaAgrin HilmkilChao Ma
-*https://arxiv.org/pdf/2410.12822
+* *Paper:* https://arxiv.org/pdf/2410.12822
 
 Large-scale generative models have achieved remarkable success in a number of domains. However, for sequential decision-making problems, such as robotics, action-labelled data is often scarce and…
 
 ## Cavia: Camera-controllable Multi-view Video Diffusion with View-Integrated Attention
-No code
-*
+We present Cavia, the first framework that enables users to generate multiple videos of the same scene with precise control over camera motion, while simultaneously preserving object motion.
+* *Paper:* https://arxiv.org/pdf/2410.10774
+paper demo code
+
+## Genesis is a physics platform designed for general purpose Robotics/Embodied AI/Physical AI applications. It is simultaneously multiple things:
+    A universal physics engine re-built from the ground up, capable of simulating a wide range of materials and physical phenomena.
+    A lightweight, ultra-fast, pythonic, and user-friendly robotics simulation platform.
+    A powerful and fast photo-realistic rendering system.
+    A generative data engine that transforms user-prompted natural language description into various modalities of data.
+* https://github.com/Genesis-Embodied-AI/Genesis
 
 ## World models 2023 and before
-See https://github.com/PatrickHua/Awesome-World-Models
+* See https://github.com/PatrickHua/Awesome-World-Models
+* https://github.com/GigaAI-research/General-World-Models-Survey
 
 ## Basic 
 ### Dit "Scalable Diffusion Models with Transformers" 
 https://github.com/facebookresearch/DiT
-https://arxiv.org/pdf/2212.09748
+* *Paper:* https://arxiv.org/pdf/2212.09748
 OpenDiT: An acceleration for DiT training. We adopt valuable acceleration strategies for training progress from OpenDiT.
 
 ### ViT: Transformers for Image Recognition [Paper] [Blog] [Video]
