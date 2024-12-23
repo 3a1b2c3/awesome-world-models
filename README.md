@@ -14,7 +14,7 @@
   * [Efficient World Models with Context-Aware Tokenization](#efficient-world-models-with-context-aware-tokenization)
   * [AVID: Adapting Video Diffusion Models to World Models](#avid--adapting-video-diffusion-models-to-world-models)
   * [Cavia: Camera-controllable Multi-view Video Diffusion with View-Integrated Attention](#cavia--camera-controllable-multi-view-video-diffusion-with-view-integrated-attention)
-  * [Genesis is a physics platform designed for general purpose Robotics/Embodied AI/Physical AI applications. It is simultaneously multiple things:](#genesis-is-a-physics-platform-designed-for-general-purpose-robotics-embodied-ai-physical-ai-applications-it-is-simultaneously-multiple-things-)
+  * [Genesis is a physics platform designed for general purpose Robotics/Embodied AI/Physical AI applications](#genesis-is-a-physics-platform-designed-for-general-purpose-robotics-embodied-ai-physical-ai-applications-it-is-simultaneously-multiple-things-)
   * [World models 2023 and before](#world-models-2023-and-before)
   * [Basic](#basic)
     + [ViT: Transformers for Image Recognition [Paper] [Blog] [Video]](#vit--transformers-for-image-recognition--paper---blog---video-)
@@ -119,7 +119,8 @@ We present Cavia, the first framework that enables users to generate multiple vi
 * *Paper:* https://arxiv.org/pdf/2410.10774
 paper demo code
 
-## Genesis is a physics platform designed for general purpose Robotics/Embodied AI/Physical AI applications. It is simultaneously multiple things:
+## Genesis is a physics platform designed for general purpose Robotics/Embodied AI/Physical AI applications
+It is simultaneously multiple things:
     A universal physics engine re-built from the ground up, capable of simulating a wide range of materials and physical phenomena.
     A lightweight, ultra-fast, pythonic, and user-friendly robotics simulation platform.
     A powerful and fast photo-realistic rendering system.
