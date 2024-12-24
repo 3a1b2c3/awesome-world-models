@@ -124,7 +124,7 @@ We present Cavia, the first framework that enables users to generate multiple vi
 * *Paper:* https://arxiv.org/pdf/2410.10774
 
 
-## Genesis,physics platform designed for general purpose Robotics/Embodied AI/Physical AI applications
+## Genesis: physics platform designed for general purpose Robotics/Embodied AI/Physical AI applications
 It is simultaneously multiple things:
     A universal physics engine re-built from the ground up, capable of simulating a wide range of materials and physical phenomena.
     A lightweight, ultra-fast, pythonic, and user-friendly robotics simulation platform.
@@ -139,7 +139,7 @@ See
 * https://github.com/PatrickHua/Awesome-World-Models
 * https://github.com/GigaAI-research/General-World-Models-Survey
 
-## Basic 
+## Background 
 ### ViT: Transformers for Image Recognition [Paper] [Blog] [Video]
 'An Image Is Worth 16 x 16 Words: Transformers for Image Recognition at Scale'
 * *Paper:* https://arxiv.org/abs/2010.11929
