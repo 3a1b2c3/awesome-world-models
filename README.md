@@ -108,9 +108,9 @@ DIAMOND, a diffusion world model, to train sample-efficient RL agents on Atari 1
 * *Demo:* https://next.journee.ai/xyz-diamond
 
 ## Efficient World Models with Context-Aware Tokenization
-Scaling up deep Reinforcement Learning (RL) methods presents a significant challenge. Following developments in generative modelling, model-based RL positions itself as a strong contender. 
-
-* *Project:* https://github.com/vmicheli/delta-iris
+Δ-IRIS is a reinforcement learning agent trained in the imagination of its world model.
+ 
+* *Project and code:* https://github.com/vmicheli/delta-iris
 * *Paper:* https://arxiv.org/abs/2406.19320
   
 ## AVID: Adapting Video Diffusion Models to World Models
