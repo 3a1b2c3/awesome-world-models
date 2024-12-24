@@ -58,17 +58,19 @@ There is no collapse issue in that case.
 * google genie-2 https://deepmind.google/discover/blog/genie-2-a-large-scale-foundation-world-model/* 
 * google veo-2 https://deepmind.google/technologies/veo/veo-2/
 * openai sora https://openai.com/sora/ Is Sora a World Simulator? A Comprehensive Survey on General World Models and Beyond (from GigaAI)
+  * Sora: A Review on Background, Technology, Limitations, and Opportunities of Large Vision Models Paper: https://arxiv.org/pdf/2402.17177
 
 ## Playable demos 
 * https://next.journee.ai/xyz-diamond
 * https://oasis.decart.ai/welcome
 
 ## Papers and code
-### OpenSora
-* *Project:* https://hpcaitech.github.io/Open-Sora/ no windows, 24 GB RAM+
+### OpenSora and Open-Sora-Plan
 Open-Sora’s methodology revolves around a comprehensive training pipeline incorporating video compression, denoising, and decoding stages to process and generate video content efficiently. Using a video compression network, the model compresses videos into sequences of spatial-temporal patches in latent space, then refined through a Diffusion Transformer for denoising, followed by decoding to produce the final video output. This innovative approach allows for handling various sizes and complexities of videos with improved efficiency and reduced computational demands.
+
 * *Project:* https://github.com/PKU-YuanGroup/Open-Sora-Plan
-  
+* *Project:* https://hpcaitech.github.io/Open-Sora/ no windows, 24 GB RAM+
+    
 ## Navigation World Models
 Navigation is a fundamental skill of agents with visual-motor capabilities. We introduce a Navigation World Model (NWM), a controllable video generation model that predicts future visual observation
 
@@ -81,7 +83,7 @@ We introduce a simple method for constructing versatile world models with pre-tr
 * *Paper:* https://arxiv.org/pdf/2411.04983
 
 ## Learning Generative Interactive Environments by Trained Agent Exploration
-Learning Generative Interactive Environments by Trained Agent Exploration
+Proposes to improve the model by employing reinforcement learning based agents for data generation.
 
 * *Project:* https://github.com/insait-institute/GenieRedux
 * *Paper:* https://arxiv.org/pdf/2409.06445
@@ -100,6 +102,7 @@ We introduce GameGen-X, the first diffusion transformer model specifically desig
 
 ## Diffusion for World Modeling: Visual Details Matter in Atari  DIAMOND
 DIAMOND, a diffusion world model, to train sample-efficient RL agents on Atari 100k.
+* Minecraft, CSGO
 
 * *Project and code:* https://github.com/eloialonso/diamond
 * *Demo:* https://next.journee.ai/xyz-diamond
@@ -108,6 +111,7 @@ DIAMOND, a diffusion world model, to train sample-efficient RL agents on Atari 1
 Scaling up deep Reinforcement Learning (RL) methods presents a significant challenge. Following developments in generative modelling, model-based RL positions itself as a strong contender. 
 
 * *Project:* https://github.com/vmicheli/delta-iris
+* *Paper:* https://arxiv.org/abs/2406.19320
   
 ## AVID: Adapting Video Diffusion Models to World Models
 The key idea behind AVID is to adapt the video diffusion model to better understand and represent the real world.
@@ -116,19 +120,23 @@ The key idea behind AVID is to adapt the video diffusion model to better underst
 
 ## Cavia: Camera-controllable Multi-view Video Diffusion with View-Integrated Attention
 We present Cavia, the first framework that enables users to generate multiple videos of the same scene with precise control over camera motion, while simultaneously preserving object motion.
-* *Paper:* https://arxiv.org/pdf/2410.10774
-paper demo code
 
-## Genesis is a physics platform designed for general purpose Robotics/Embodied AI/Physical AI applications
+* *Paper:* https://arxiv.org/pdf/2410.10774
+
+
+## Genesis,physics platform designed for general purpose Robotics/Embodied AI/Physical AI applications
 It is simultaneously multiple things:
     A universal physics engine re-built from the ground up, capable of simulating a wide range of materials and physical phenomena.
     A lightweight, ultra-fast, pythonic, and user-friendly robotics simulation platform.
     A powerful and fast photo-realistic rendering system.
     A generative data engine that transforms user-prompted natural language description into various modalities of data.
-* *Project:* https://github.com/Genesis-Embodied-AI/Genesis
+    
+* *Project and code:* https://github.com/Genesis-Embodied-AI/Genesis
 
 ## World models 2023 and before
-* See https://github.com/PatrickHua/Awesome-World-Models
+See
+
+* https://github.com/PatrickHua/Awesome-World-Models
 * https://github.com/GigaAI-research/General-World-Models-Survey
 
 ## Basic 
