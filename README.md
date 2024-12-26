@@ -1,4 +1,3 @@
-- [awesome-world-models 2024](#awesome-world-models-2024)
   * [Yann LeCun's defintion (a bit techical)](#yann-lecun-s-defintion--a-bit-techical-)
   * [Commercial world models: no code or papers](#commercial-world-models--no-code-or-papers)
   * [Playable demos](#playable-demos)
