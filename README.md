@@ -23,7 +23,8 @@
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 ## Yann LeCun's defintion is a bit techical
-For a more accessible definition see World Models: the AI technology that could displace 3D as we know it  https://substack.com/home/post/p-153106976
+For a more accessible definition see "World Models: the AI technology that could displace 3D as we know it
+https://substack.com/home/post/p-153106976
 
 Lots of confusion about what a world model is. Here is my definition: 
 Given:
@@ -52,17 +53,17 @@ s(t) = [x(t),x(t-1),...x(t-k)]
 x(t+1) = Pred( s(t), z(t) )
 There is no collapse issue in that case.
 
-## Commercial world models, no code or papers
+## Commercial world models: no code or papers
 * odyssey https://odyssey.systems/introducing-explorer#waitlist
 * worldlabs https://www.worldlabs.ai/blog
 * google genie-2 https://deepmind.google/discover/blog/genie-2-a-large-scale-foundation-world-model/* 
 * google veo-2 https://deepmind.google/technologies/veo/veo-2/
 * openai sora https://openai.com/sora/ Is Sora a World Simulator? A Comprehensive Survey on General World Models and Beyond (from GigaAI)
-  * Sora: A Review on Background, Technology, Limitations, and Opportunities of Large Vision Models Paper: https://arxiv.org/pdf/2402.17177
+  * Sora: A Review on Background, Technology, Limitations, and Opportunities of Large Vision Models, **Paper:** https://arxiv.org/pdf/2402.17177
 
 ## Playable demos 
-* https://next.journee.ai/xyz-diamond
-* https://oasis.decart.ai/welcome
+* https://next.journee.ai/xyz-diamond Counter strike
+* https://oasis.decart.ai/welcome Minecraft
 
 ## Papers and code
 ### OpenSora and Open-Sora-Plan
@@ -71,16 +72,6 @@ Open-Sora’s methodology revolves around a comprehensive training pipeline inco
 * *Project:* https://github.com/PKU-YuanGroup/Open-Sora-Plan
 * *Project:* https://hpcaitech.github.io/Open-Sora/ no windows, 24 GB RAM+
     
-## Navigation World Models
-Navigation is a fundamental skill of agents with visual-motor capabilities. We introduce a Navigation World Model (NWM), a controllable video generation model that predicts future visual observation
-
-* *Paper:* https://arxiv.org/pdf/2410.10774
-* *Project:* https://www.amirbar.net/nwm/
-
-## DINO-WM: World Models on Pre-trained Visual Features enable Zero-shot Planning (from NYU)
-We introduce a simple method for constructing versatile world models with pre-trained DINOv2 that generalize to complex environment dynamics, which enables zero-shot solutions at test time for arbitrary goals
-
-* *Paper:* https://arxiv.org/pdf/2411.04983
 
 ## Learning Generative Interactive Environments by Trained Agent Exploration
 Proposes to improve the model by employing reinforcement learning based agents for data generation.
@@ -121,8 +112,23 @@ The key idea behind AVID is to adapt the video diffusion model to better underst
 ## Cavia: Camera-controllable Multi-view Video Diffusion with View-Integrated Attention
 We present Cavia, the first framework that enables users to generate multiple videos of the same scene with precise control over camera motion, while simultaneously preserving object motion.
 
-* *Paper:* https://arxiv.org/pdf/2410.10774
 
+* *Paper:* https://arxiv.org/pdf/2410.10774
+## Navigation World Models
+Navigation is a fundamental skill of agents with visual-motor capabilities. We introduce a Navigation World Model (NWM), a controllable video generation model that predicts future visual observation
+
+* *Paper:* https://arxiv.org/pdf/2410.10774
+* *Project:* https://www.amirbar.net/nwm/
+
+## DINO-WM: World Models on Pre-trained Visual Features enable Zero-shot Planning (from NYU)
+We introduce a simple method for constructing versatile world models with pre-trained DINOv2 that generalize to complex environment dynamics, which enables zero-shot solutions at test time for arbitrary goals
+
+* *Paper:* https://arxiv.org/pdf/2411.04983
+* 
+## Temporally-Controlled Multi-Event Video Generation
+MinT is the first text-to-video model capable of generating sequential events and controlling their timestamps.
+https://mint-video.github.io/
+https://arxiv.org/abs/2412.05263
 
 ## Genesis: physics platform designed for general purpose Robotics/Embodied AI/Physical AI applications
 It is simultaneously multiple things:
@@ -134,7 +140,7 @@ It is simultaneously multiple things:
 * *Project and code:* https://github.com/Genesis-Embodied-AI/Genesis
 
 ## World models 2023 and before
-See
+See list below for papers
 
 * https://github.com/PatrickHua/Awesome-World-Models
 * https://github.com/GigaAI-research/General-World-Models-Survey
