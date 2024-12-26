@@ -28,7 +28,7 @@
 For a more accessible definition see "World Models: the AI technology that could displace 3D as we know it
 https://substack.com/home/post/p-153106976
 
-Lots of confusion about what a world model is. Here is my definition: 
+Yann LeCun's definition: 
 Given:
 - an observation x(t)
 - a previous estimate of the state of the world s(t)
