@@ -6,10 +6,6 @@
   * [Background](#background)
 
 
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
 ## Yann LeCun's defintion (a bit techical)
 For a more accessible definition see "World Models: the AI technology that could displace 3D as we know it
 https://substack.com/home/post/p-153106976
