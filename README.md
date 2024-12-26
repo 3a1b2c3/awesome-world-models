@@ -1,12 +1,9 @@
-# awesome-world-models 2024
 - [awesome-world-models 2024](#awesome-world-models-2024)
-  * [Yann LeCun's defintion is a bit techical](#yann-lecun-s-defintion-is-a-bit-techical)
-  * [Commercial world models, no code or papers](#commercial-world-models--no-code-or-papers)
+  * [Yann LeCun's defintion (a bit techical)](#yann-lecun-s-defintion--a-bit-techical-)
+  * [Commercial world models: no code or papers](#commercial-world-models--no-code-or-papers)
   * [Playable demos](#playable-demos)
   * [Papers and code](#papers-and-code)
-    + [OpenSora](#opensora)
-  * [Navigation World Models](#navigation-world-models)
-  * [DINO-WM: World Models on Pre-trained Visual Features enable Zero-shot Planning (from NYU)](#dino-wm--world-models-on-pre-trained-visual-features-enable-zero-shot-planning--from-nyu-)
+    + [OpenSora and Open-Sora-Plan](#opensora-and-open-sora-plan)
   * [Learning Generative Interactive Environments by Trained Agent Exploration](#learning-generative-interactive-environments-by-trained-agent-exploration)
   * [The Matrix: Infinite-Horizon World Generation with Real-Time Moving Control](#the-matrix--infinite-horizon-world-generation-with-real-time-moving-control)
   * [GameGen-X: Interactive Open-world Game Video Generation](#gamegen-x--interactive-open-world-game-video-generation)
@@ -14,15 +11,20 @@
   * [Efficient World Models with Context-Aware Tokenization](#efficient-world-models-with-context-aware-tokenization)
   * [AVID: Adapting Video Diffusion Models to World Models](#avid--adapting-video-diffusion-models-to-world-models)
   * [Cavia: Camera-controllable Multi-view Video Diffusion with View-Integrated Attention](#cavia--camera-controllable-multi-view-video-diffusion-with-view-integrated-attention)
-  * [Genesis is a physics platform designed for general purpose Robotics/Embodied AI/Physical AI applications](#genesis-is-a-physics-platform-designed-for-general-purpose-robotics-embodied-ai-physical-ai-applications-it-is-simultaneously-multiple-things-)
+  * [Navigation World Models](#navigation-world-models)
+  * [DINO-WM: World Models on Pre-trained Visual Features enable Zero-shot Planning (from NYU)](#dino-wm--world-models-on-pre-trained-visual-features-enable-zero-shot-planning--from-nyu-)
+  * [Temporally-Controlled Multi-Event Video Generation](#temporally-controlled-multi-event-video-generation)
+  * [Genesis: physics platform designed for general purpose Robotics/Embodied AI/Physical AI applications](#genesis--physics-platform-designed-for-general-purpose-robotics-embodied-ai-physical-ai-applications)
   * [World models 2023 and before](#world-models-2023-and-before)
-  * [Basic](#basic)
+  * [Background](#background)
     + [ViT: Transformers for Image Recognition [Paper] [Blog] [Video]](#vit--transformers-for-image-recognition--paper---blog---video-)
     + [Dit "Scalable Diffusion Models with Transformers"](#dit--scalable-diffusion-models-with-transformers-)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
-## Yann LeCun's defintion is a bit techical
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
+## Yann LeCun's defintion (a bit techical)
 For a more accessible definition see "World Models: the AI technology that could displace 3D as we know it
 https://substack.com/home/post/p-153106976
 
