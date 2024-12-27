@@ -10,8 +10,7 @@
 For a more accessible definition see "World Models: the AI technology that could displace 3D as we know it
 https://substack.com/home/post/p-153106976
 
-Yann LeCun's definition: 
-Given:
+Yann LeCun's definition. Given:
 - an observation x(t)
 - a previous estimate of the state of the world s(t)
 - an action proposal a(t)
