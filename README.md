@@ -50,13 +50,14 @@ There is no collapse issue in that case.
 * https://oasis.decart.ai/welcome Minecraft
 
 ## Papers and code
-### OpenSora and Open-Sora-Plan (see also Dit)
+### Hunyuan, OpenSora and Open-Sora-Plan (see also Dit)
 Open-Sora’s methodology revolves around a comprehensive training pipeline incorporating video compression, denoising, and decoding stages to process and generate video content efficiently. Using a video compression network, the model compresses videos into sequences of spatial-temporal patches in latent space, then refined through a Diffusion Transformer for denoising, followed by decoding to produce the final video output. This innovative approach allows for handling various sizes and complexities of videos with improved efficiency and reduced computational demands.
 
 * *Project:* https://github.com/PKU-YuanGroup/Open-Sora-Plan
 * *Project:* https://hpcaitech.github.io/Open-Sora/ no windows, 24 GB RAM+
-* Hunyuan-DiT : A Powerful Multi-Resolution Diffusion Transformer with Fine-Grained Chinese Understanding 
-  *Code:* https://github.com/Tencent/HunyuanDiT
+* Hunyuan-DiT and video: A Powerful Multi-Resolution Diffusion Transformer with Fine-Grained Chinese Understanding 
+  *Code:* https://github.com/Tencent/HunyuanDiT 
+  *Code:* https://github.com/Tencent/HunyuanVideo
 
 ## Learning Generative Interactive Environments by Trained Agent Exploration
 Proposes to improve the model by employing reinforcement learning based agents for data generation.
