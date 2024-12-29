@@ -143,4 +143,5 @@ Masked Autoencoders: A PyTorch Implementation https://github.com/facebookresearc
 * *Paper:* https://arxiv.org/pdf/2212.09748
 * OpenDiT: An acceleration for DiT training. Acceleration strategies for training progress from OpenDiT.
  *Project and code:* https://oahzxl.github.io/PAB/   
-* PixArt: An open-source DiT-based text-to-image model.*Code:* https://github.com/PixArt-alpha/PixArt-alpha
+* PixArt: An open-source DiT-based text-to-image model. *Code:* https://github.com/PixArt-alpha/PixArt-alpha
+* Latte: An attempt to efficiently train DiT for video. *Code:* [[https://github.com/PixArt-alpha/PixArt-alph](https://github.com/Vchitect/Latte)a](https://github.com/Vchitect/Latte)
