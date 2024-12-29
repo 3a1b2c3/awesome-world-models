@@ -50,7 +50,7 @@ There is no collapse issue in that case.
 * https://oasis.decart.ai/welcome Minecraft
 
 ## Papers and code
-### OpenSora and Open-Sora-Plan
+### OpenSora and Open-Sora-Plan (see also Dit)
 Open-Sora’s methodology revolves around a comprehensive training pipeline incorporating video compression, denoising, and decoding stages to process and generate video content efficiently. Using a video compression network, the model compresses videos into sequences of spatial-temporal patches in latent space, then refined through a Diffusion Transformer for denoising, followed by decoding to produce the final video output. This innovative approach allows for handling various sizes and complexities of videos with improved efficiency and reduced computational demands.
 
 * *Project:* https://github.com/PKU-YuanGroup/Open-Sora-Plan
@@ -108,7 +108,7 @@ Navigation is a fundamental skill of agents with visual-motor capabilities. We i
 We introduce a simple method for constructing versatile world models with pre-trained DINOv2 that generalize to complex environment dynamics, which enables zero-shot solutions at test time for arbitrary goals
 
 * *Paper:* https://arxiv.org/pdf/2411.04983
-* 
+  
 ## Temporally-Controlled Multi-Event Video Generation
 MinT is the first text-to-video model capable of generating sequential events and controlling their timestamps.
 https://mint-video.github.io/
@@ -141,5 +141,6 @@ Masked Autoencoders: A PyTorch Implementation https://github.com/facebookresearc
 ### Dit "Scalable Diffusion Models with Transformers" 
 * *Project:* https://github.com/facebookresearch/DiT
 * *Paper:* https://arxiv.org/pdf/2212.09748
-OpenDiT: An acceleration for DiT training. We adopt valuable acceleration strategies for training progress from OpenDiT.
-
+* OpenDiT: An acceleration for DiT training. Acceleration strategies for training progress from OpenDiT.
+ *Project and code:* https://oahzxl.github.io/PAB/   
+* PixArt: An open-source DiT-based text-to-image model.*Code:* https://github.com/PixArt-alpha/PixArt-alpha
