@@ -55,7 +55,8 @@ Open-Sora’s methodology revolves around a comprehensive training pipeline inco
 
 * *Project:* https://github.com/PKU-YuanGroup/Open-Sora-Plan
 * *Project:* https://hpcaitech.github.io/Open-Sora/ no windows, 24 GB RAM+
-    
+* Hunyuan-DiT : A Powerful Multi-Resolution Diffusion Transformer with Fine-Grained Chinese Understanding 
+  *Code:* https://github.com/Tencent/HunyuanDiT
 
 ## Learning Generative Interactive Environments by Trained Agent Exploration
 Proposes to improve the model by employing reinforcement learning based agents for data generation.
