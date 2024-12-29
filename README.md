@@ -50,6 +50,10 @@ There is no collapse issue in that case.
 * https://oasis.decart.ai/welcome Minecraft
 
 ## Papers and code
+### DIFFUSION MODELS ARE REAL-TIME GAME ENGINES 
+GameNGen, the first game engine powered entirely by a neural model that enables real-time interaction with a complex environment over long trajectories at high quality. 
+*Project:*  https://gamengen.github.io
+
 ### Hunyuan, OpenSora and Open-Sora-Plan (see also Dit)
 Open-Sora’s methodology revolves around a comprehensive training pipeline incorporating video compression, denoising, and decoding stages to process and generate video content efficiently. Using a video compression network, the model compresses videos into sequences of spatial-temporal patches in latent space, then refined through a Diffusion Transformer for denoising, followed by decoding to produce the final video output. This innovative approach allows for handling various sizes and complexities of videos with improved efficiency and reduced computational demands.
 
