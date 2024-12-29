@@ -50,7 +50,7 @@ There is no collapse issue in that case.
 * https://oasis.decart.ai/welcome Minecraft
 
 ## Papers and code
-### DIFFUSION MODELS ARE REAL-TIME GAME ENGINES 
+### DIFFUSION MODELS ARE REAL-TIME GAME ENGINES, Doom demo
 GameNGen, the first game engine powered entirely by a neural model that enables real-time interaction with a complex environment over long trajectories at high quality. 
 *Project:*  https://gamengen.github.io
 
