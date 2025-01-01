@@ -63,7 +63,7 @@ GameNGen, the first game engine powered entirely by a neural model that enables 
   *Report:* https://aivideo.hunyuan.tencent.com/hunyuanvideo.pdf
   *Code:* https://github.com/Tencent/HunyuanDiT 
   *Code:* https://github.com/Tencent/HunyuanVideo
-  *Code 3d:* [https://github.com/Tencent/HunyuanVideo](https://github.com/Tencent/Hunyuan3D-1)
+  *Code 3d:* [https://github.com/Tencent/HunyuanVideo](https://github.com/Tencent/Hunyuan3D-1),  *Paper:* https://arxiv.org/pdf/2411.02293
 
 ## Learning Generative Interactive Environments by Trained Agent Exploration
 Proposes to improve the model by employing reinforcement learning based agents for data generation.
