@@ -103,9 +103,13 @@ The key idea behind AVID is to adapt the video diffusion model to better underst
 
 ## Cavia: Camera-controllable Multi-view Video Diffusion with View-Integrated Attention
 We present Cavia, the first framework that enables users to generate multiple videos of the same scene with precise control over camera motion, while simultaneously preserving object motion.
-
-
 * *Paper:* https://arxiv.org/pdf/2410.10774
+
+## Promptable Game Models: Text-Guided Game Simulation via Masked Diffusion Models
+Proposes Promptable Game Models (PGMs), controllable models of games that are learned from annotated videos.
+* *Project:* https://snap-research.github.io/promptable-game-models/
+* *Paper:* https://arxiv.org/pdf/2303.13472
+
 ## Navigation World Models
 Navigation is a fundamental skill of agents with visual-motor capabilities. We introduce a Navigation World Model (NWM), a controllable video generation model that predicts future visual observation
 
