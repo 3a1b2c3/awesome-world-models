@@ -63,7 +63,9 @@ is a game content foundation model capable of generating creative and infinitely
 
 * *Project:* https://github.com/PKU-YuanGroup/Open-Sora-Plan
 * *Project:* https://hpcaitech.github.io/Open-Sora/ no windows, 24 GB RAM+
-* **Hunyuan-DiT** and video: A Powerful Multi-Resolution Diffusion Transformer with Fine-Grained Chinese Understanding
+
+**Hunyuan-DiT** and video: A Powerful Multi-Resolution Diffusion Transformer with Fine-Grained Chinese Understanding
+Most advanced opensource model, 3d and avatar aimation capabilities
   *Report:* https://aivideo.hunyuan.tencent.com/hunyuanvideo.pdf
   *Code:* https://github.com/Tencent/HunyuanDiT 
   *Code:* https://github.com/Tencent/HunyuanVideo
