@@ -60,7 +60,16 @@ GameNGen, the first game engine powered entirely by a neural model that enables 
 is a game content foundation model capable of generating creative and infinitely long game videos with AAA game quality, multiple high resolutions, 20 FPS real-time control at 320p, and open-domain generalization.
 *Project:*  https://gamegen-x.github.io/
 
-### Hunyuan, OpenSora and Open-Sora-Plan (see also Dit below)
+### Hunyuan, Cosmos, OpenSora and Open-Sora-Plan (see also Dit below)
+**Cosmos**
+Customized world models for their Physical AI setups. We position a world foundation model as a general-purpose world model that can be fine-tuned into customized world models for downstream applications. Our platform covers a video curation pipeline, pre-trained
+world foundation models, examples of post-training of pre-trained world foundation models, and video
+tokenizers. 
+
+* *Project:* https://d1qx31qr3h6wln.cloudfront.net/publications/NVIDIA%20Cosmos_2.pdf
+* *Code:* https://github.com/NVIDIA/Cosmos
+
+
 **Open-Sora**’s methodology revolves around a comprehensive training pipeline incorporating video compression, denoising, and decoding stages to process and generate video content efficiently. Using a video compression network, the model compresses videos into sequences of spatial-temporal patches in latent space, then refined through a Diffusion Transformer for denoising, followed by decoding to produce the final video output. This innovative approach allows for handling various sizes and complexities of videos with improved efficiency and reduced computational demands.
 
 * *Project:* https://github.com/PKU-YuanGroup/Open-Sora-Plan
