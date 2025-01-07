@@ -61,7 +61,7 @@ is a game content foundation model capable of generating creative and infinitely
 *Project:*  https://gamegen-x.github.io/
 
 ### Hunyuan, Cosmos, OpenSora and Open-Sora-Plan (see also Dit below)
-**Cosmos**
+#### Cosmos (diffussion and autoregressive)
 Customized world models for their Physical AI setups. We position a world foundation model as a general-purpose world model that can be fine-tuned into customized world models for downstream applications. Our platform covers a video curation pipeline, pre-trained
 world foundation models, examples of post-training of pre-trained world foundation models, and video
 tokenizers. 
@@ -69,13 +69,13 @@ tokenizers.
 * *Project:* https://d1qx31qr3h6wln.cloudfront.net/publications/NVIDIA%20Cosmos_2.pdf
 * *Code:* https://github.com/NVIDIA/Cosmos
 
-
-**Open-Sora**’s methodology revolves around a comprehensive training pipeline incorporating video compression, denoising, and decoding stages to process and generate video content efficiently. Using a video compression network, the model compresses videos into sequences of spatial-temporal patches in latent space, then refined through a Diffusion Transformer for denoising, followed by decoding to produce the final video output. This innovative approach allows for handling various sizes and complexities of videos with improved efficiency and reduced computational demands.
+#### Open-Sora’s 
+methodology revolves around a comprehensive training pipeline incorporating video compression, denoising, and decoding stages to process and generate video content efficiently. Using a video compression network, the model compresses videos into sequences of spatial-temporal patches in latent space, then refined through a Diffusion Transformer for denoising, followed by decoding to produce the final video output. This innovative approach allows for handling various sizes and complexities of videos with improved efficiency and reduced computational demands.
 
 * *Project:* https://github.com/PKU-YuanGroup/Open-Sora-Plan
 * *Project:* https://hpcaitech.github.io/Open-Sora/ no windows, 24 GB RAM+
 
-**Hunyuan-DiT** and video: A Powerful Multi-Resolution Diffusion Transformer with Fine-Grained Chinese Understanding
+#### Hunyuan-DiT and video: A Powerful Multi-Resolution Diffusion Transformer with Fine-Grained Chinese Understanding
 Most advanced opensource model, 3d and avatar aimation capabilities
   *Report:* https://aivideo.hunyuan.tencent.com/hunyuanvideo.pdf
   *Code:* https://github.com/Tencent/HunyuanDiT 
