@@ -152,6 +152,11 @@ It is simultaneously multiple things:
     
 * *Project and code:* https://github.com/Genesis-Embodied-AI/Genesis
 
+## Physics IQ Benchmark:
+Do generative video models learn physical principles from watching videos?
+* *Paper:* [https://github.com/Genesis-Embodied-AI/Genesis](https://drive.google.com/file/d/1ac93646QoMlFtcO_6GlcZXex7lPzRWaE/view)
+* * *Project and code:* [https://github.com/Genesis-Embodied-AI/Genesis](https://physics-iq.github.io/)
+
 ## World models 2023 and before
 See list below for papers
 
