@@ -41,8 +41,11 @@ There is no collapse issue in that case.
 ## Commercial world models: no code or papers
 * odyssey https://odyssey.systems/introducing-explorer#waitlist
 * worldlabs https://www.worldlabs.ai/blog
-* google genie-2 https://deepmind.google/discover/blog/genie-2-a-large-scale-foundation-world-model/* 
+* google genie-2 https://deepmind.google/discover/blog/genie-2-a-large-scale-foundation-world-model/
+* google video poet https://fliki.ai/blog/google-videopoet
 * google veo-2 https://deepmind.google/technologies/veo/veo-2/
+* Pika https://pika.art/
+* Luma ai https://lumalabs.ai/dream-machine
 * Oasis https://www.decart.ai/articles/oasis-interactive-ai-video-game-model
 * openai sora https://openai.com/sora/ Is Sora a World Simulator? A Comprehensive Survey on General World Models and Beyond (from GigaAI)
   * Sora: A Review on Background, Technology, Limitations, and Opportunities of Large Vision Models, **Paper:** https://arxiv.org/pdf/2402.17177
