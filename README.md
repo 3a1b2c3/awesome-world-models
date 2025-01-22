@@ -83,7 +83,7 @@ Most advanced opensource model, 3d and avatar aimation capabilities
   *Report:* https://aivideo.hunyuan.tencent.com/hunyuanvideo.pdf
   *Code:* https://github.com/Tencent/HunyuanDiT 
   *Code:* https://github.com/Tencent/HunyuanVideo
-  *Code 3d:* [https://github.com/Tencent/HunyuanVideo](https://github.com/Tencent/Hunyuan3D-1),  *Paper:* https://arxiv.org/pdf/2411.02293
+  *Code 3d:* [[[https://github.com/Tencent/HunyuanVideo](https://github.com/Tencent/Hunyuan3D-1](https://github.com/Tencent/Hunyuan3D-2))](https://github.com/Tencent/Hunyuan3D-2),  *Paper:* https://arxiv.org/pdf/2411.02293
 
 ## Learning Generative Interactive Environments by Trained Agent Exploration
 Proposes to improve the model by employing reinforcement learning based agents for data generation.
@@ -145,6 +145,10 @@ We introduce a simple method for constructing versatile world models with pre-tr
 MinT is the first text-to-video model capable of generating sequential events and controlling their timestamps.
 https://mint-video.github.io/
 https://arxiv.org/abs/2412.05263
+
+## Creating New Games with Generative Interactive Videos
+https://arxiv.org/pdf/2501.08325
+
 
 ## Genesis: physics platform designed for general purpose Robotics/Embodied AI/Physical AI applications
 It is simultaneously multiple things:
