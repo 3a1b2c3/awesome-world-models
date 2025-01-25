@@ -174,8 +174,10 @@ See list below for papers
 ### ViT: Transformers for Image Recognition [Paper] [Blog] [Video]
 'An Image Is Worth 16 x 16 Words: Transformers for Image Recognition at Scale'
 * *Paper:* https://arxiv.org/abs/2010.11929
+  
 `How to train your ViT? Data, Augmentation, and Regularization in Vision Transformers`
 * *Paper:*  https://arxiv.org/abs/2106.10270
+  
 Masked Autoencoders: A PyTorch Implementation https://github.com/facebookresearch/mae/blob/main/models_vit.py
 
 
