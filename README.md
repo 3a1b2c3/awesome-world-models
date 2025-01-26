@@ -149,7 +149,10 @@ https://arxiv.org/abs/2412.05263
 ## Creating New Games with Generative Interactive Videos
 https://arxiv.org/pdf/2501.08325
 
+## GPS as a Control Signal for Image Generation
+https://cfeng16.github.io/gps-gen/
 
+# Physics
 ## Genesis: physics platform designed for general purpose Robotics/Embodied AI/Physical AI applications
 It is simultaneously multiple things:
     A universal physics engine re-built from the ground up, capable of simulating a wide range of materials and physical phenomena.
