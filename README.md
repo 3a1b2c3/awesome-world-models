@@ -147,10 +147,16 @@ https://mint-video.github.io/
 https://arxiv.org/abs/2412.05263
 
 ## Creating New Games with Generative Interactive Videos
-https://arxiv.org/pdf/2501.08325
+* *Paper:* https://arxiv.org/pdf/2501.08325
 
+# Mapping
 ## GPS as a Control Signal for Image Generation
 https://cfeng16.github.io/gps-gen/
+
+## Streetscapes: Large-scale Consistent Street View Generation using Autoregressive Video Diffusion
+underlying map/layout hosting the desired trajectory.
+* *Paper:* https://arxiv.org/abs/2407.13759
+
 
 # Physics
 ## Genesis: physics platform designed for general purpose Robotics/Embodied AI/Physical AI applications
