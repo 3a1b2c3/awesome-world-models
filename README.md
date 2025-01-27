@@ -5,6 +5,8 @@
   * [World models 2023 and before](#world-models-2023-and-before)
   * [Background](#background)
 
+![diagram](https://github.com/user-attachments/assets/c65aa56c-4f4e-45b9-a5a6-5be630ed6a7e)
+Source: https://huggingface.co/blog/video_gen
 
 ## Yann LeCun's defintion (a bit techical)
 World Models Blend Generative AI with Reinforcement Learning
