@@ -5,7 +5,8 @@
   * [World models 2023 and before](#world-models-2023-and-before)
   * [Background](#background)
 
-<img src="drawing.jpg" alt="drawing" style="width:200px;"/>(https://github.com/user-attachments/assets/c65aa56c-4f4e-45b9-a5a6-5be630ed6a7e)</img>
+<img src=https://github.com/user-attachments/assets/c65aa56c-4f4e-45b9-a5a6-5be630ed6a7e alt="drawing" style="width:200px;"/>(https://github.com/user-attachments/assets/c65aa56c-4f4e-45b9-a5a6-5be630ed6a7e)</img>
+
 Source: https://huggingface.co/blog/video_gen
 
 ## Yann LeCun's defintion (a bit techical)
