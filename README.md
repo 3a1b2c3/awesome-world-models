@@ -54,31 +54,32 @@ There is no collapse issue in that case.
   * Sora: A Review on Background, Technology, Limitations, and Opportunities of Large Vision Models, **Paper:** https://arxiv.org/pdf/2402.17177
 
 
-Provider 	Model 	Open/Closed 	License
+
+**Provider 	Model 	Open/Closed 	License**
 ___________________________________________________
-Meta 	MovieGen 	Closed (with a detailed technical report) 	Proprietary
+Meta 	**MovieGen** 	Closed (with a detailed technical report) 	Proprietary
 
-OpenAI 	Sora 	Closed 	Proprietary
+OpenAI 	**Sora**	Closed 	Proprietary
 
-Google 	Veo 2 	Closed 	Proprietary
+Google 	**Veo 2** 	Closed 	Proprietary
 
-RunwayML 	Gen 3 Alpha 	Closed 	Proprietary
+RunwayML 	**Gen 3** Alpha 	Closed 	Proprietary
 
-Pika Labs 	Pika 2.0 	Closed 	Proprietary
+Pika Labs 	**Pika 2.0** 	Closed 	Proprietary
 
-KlingAI 	Kling 	Closed 	Proprietary
+KlingAI 	**Kling** 	Closed 	Proprietary
 
-Haliluo 	MiniMax 	Closed 	Proprietary
+Haliluo 	**MiniMax** 	Closed 	Proprietary
 
-THUDM 	CogVideoX 	Open 	Custom
+THUDM 	**CogVideoX** 	Open 	Custom
 
-Genmo 	Mochi-1 	Open 	Apache 2.0
+Genmo 	**Mochi-1** 	Open 	Apache 2.0
 
-RhymesAI 	Allegro 	Open 	Apache 2.0
+RhymesAI 	**Allegro** 	Open 	Apache 2.0
 
-Lightricks 	LTX Video 	Open 	Custom
+Lightricks 	**LTX Video** 	Open 	Custom
 
-Tencent 	Hunyuan Video 	Open 	Custom
+Tencent 	**Hunyuan Video** 	Open 	Custom
 
 Source https://huggingface.co/blog/video_gen
 
