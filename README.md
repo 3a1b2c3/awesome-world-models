@@ -57,18 +57,30 @@ There is no collapse issue in that case.
 Provider 	Model 	Open/Closed 	License
 ___________________________________________________
 Meta 	MovieGen 	Closed (with a detailed technical report) 	Proprietary
+
 OpenAI 	Sora 	Closed 	Proprietary
+
 Google 	Veo 2 	Closed 	Proprietary
+
 RunwayML 	Gen 3 Alpha 	Closed 	Proprietary
+
 Pika Labs 	Pika 2.0 	Closed 	Proprietary
+
 KlingAI 	Kling 	Closed 	Proprietary
+
 Haliluo 	MiniMax 	Closed 	Proprietary
+
 THUDM 	CogVideoX 	Open 	Custom
+
 Genmo 	Mochi-1 	Open 	Apache 2.0
+
 RhymesAI 	Allegro 	Open 	Apache 2.0
+
 Lightricks 	LTX Video 	Open 	Custom
+
 Tencent 	Hunyuan Video 	Open 	Custom
-https://huggingface.co/blog/video_gen
+
+Source https://huggingface.co/blog/video_gen
 
 ## Playable demos 
 * https://next.journee.ai/xyz-diamond Counter strike
