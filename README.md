@@ -53,6 +53,23 @@ There is no collapse issue in that case.
 * openai sora https://openai.com/sora/ Is Sora a World Simulator? A Comprehensive Survey on General World Models and Beyond (from GigaAI)
   * Sora: A Review on Background, Technology, Limitations, and Opportunities of Large Vision Models, **Paper:** https://arxiv.org/pdf/2402.17177
 
+
+Provider 	Model 	Open/Closed 	License
+___________________________________________________
+Meta 	MovieGen 	Closed (with a detailed technical report) 	Proprietary
+OpenAI 	Sora 	Closed 	Proprietary
+Google 	Veo 2 	Closed 	Proprietary
+RunwayML 	Gen 3 Alpha 	Closed 	Proprietary
+Pika Labs 	Pika 2.0 	Closed 	Proprietary
+KlingAI 	Kling 	Closed 	Proprietary
+Haliluo 	MiniMax 	Closed 	Proprietary
+THUDM 	CogVideoX 	Open 	Custom
+Genmo 	Mochi-1 	Open 	Apache 2.0
+RhymesAI 	Allegro 	Open 	Apache 2.0
+Lightricks 	LTX Video 	Open 	Custom
+Tencent 	Hunyuan Video 	Open 	Custom
+https://huggingface.co/blog/video_gen
+
 ## Playable demos 
 * https://next.journee.ai/xyz-diamond Counter strike
 * https://oasis.decart.ai/welcome Minecraft
@@ -176,7 +193,7 @@ Do generative video models learn physical principles from watching videos?
 * *Paper:*  https://drive.google.com/file/d/1ac93646QoMlFtcO_6GlcZXex7lPzRWaE/view
 * *Project and code:* [[https://github.com/Genesis-Embodied-AI/Genesis](https://physics-iq.github.io/)](https://physics-iq.github.io/)
 
-## World models history: 2013 - 2023 
+# World models history: 2013 - 2023 
 See list below for papers
 * 2013  Decoding “World Models” by David Ha and Jürgen Schmidhuber: A Milestone in AI Research
  * *Project:*  https://worldmodels.github.io/
