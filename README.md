@@ -176,8 +176,10 @@ Do generative video models learn physical principles from watching videos?
 * *Paper:*  https://drive.google.com/file/d/1ac93646QoMlFtcO_6GlcZXex7lPzRWaE/view
 * *Project and code:* [[https://github.com/Genesis-Embodied-AI/Genesis](https://physics-iq.github.io/)](https://physics-iq.github.io/)
 
-## World models 2023 and before
+## World models history: 2013 - 2023 
 See list below for papers
+* 2013  Decoding “World Models” by David Ha and Jürgen Schmidhuber: A Milestone in AI Research
+ * *Project:*  https://worldmodels.github.io/
 
 * https://github.com/PatrickHua/Awesome-World-Models
 * https://github.com/GigaAI-research/General-World-Models-Survey
