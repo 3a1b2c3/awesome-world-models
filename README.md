@@ -88,6 +88,9 @@ Source https://huggingface.co/blog/video_gen
 * https://oasis.decart.ai/welcome Minecraft
 
 ## Papers and code
+### 3d Generalist: Vision-Language-Action Models for Crafting 3D Worlds
+*Project:*  https://3d-generalist.pages.dev/
+
 ### GameNGen: DIFFUSION MODELS ARE REAL-TIME GAME ENGINES, Doom demo
 GameNGen, the first game engine powered entirely by a neural model that enables real-time interaction with a complex environment over long trajectories at high quality. 
 *Project:*  https://gamengen.github.io
