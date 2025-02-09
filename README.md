@@ -89,6 +89,7 @@ Source https://huggingface.co/blog/video_gen
 
 ## Papers and code
 ### GameFactory: Creating New Games with Generative Interactive Videos
+*Paper:* https://arxiv.org/abs/2501.08325
 *Project:*  https://3d-generalist.pages.dev/
 
 ### 3d Generalist: Vision-Language-Action Models for Crafting 3D Worlds
