@@ -88,6 +88,9 @@ Source https://huggingface.co/blog/video_gen
 * https://oasis.decart.ai/welcome Minecraft
 
 ## Papers and code
+### GameFactory: Creating New Games with Generative Interactive Videos
+*Project:*  https://3d-generalist.pages.dev/
+
 ### 3d Generalist: Vision-Language-Action Models for Crafting 3D Worlds
 *Project:*  https://3d-generalist.pages.dev/
 
