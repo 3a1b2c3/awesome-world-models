@@ -183,11 +183,15 @@ We introduce a simple method for constructing versatile world models with pre-tr
   
 ## Temporally-Controlled Multi-Event Video Generation
 MinT is the first text-to-video model capable of generating sequential events and controlling their timestamps.
-https://mint-video.github.io/
+* *Project:* https://mint-video.github.io/
 https://arxiv.org/abs/2412.05263
 
 ## Creating New Games with Generative Interactive Videos
 * *Paper:* https://arxiv.org/pdf/2501.08325
+* 
+# Humans
+## HumanDiT
+* *Project:* https://agnjason.github.io/HumanDiT-page/
 
 # Mapping
 ## GPS as a Control Signal for Image Generation
