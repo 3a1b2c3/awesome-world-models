@@ -92,9 +92,6 @@ Source https://huggingface.co/blog/video_gen
 *Paper:* https://arxiv.org/abs/2501.08325
 *Project:*  https://3d-generalist.pages.dev/
 
-### 3d Generalist: Vision-Language-Action Models for Crafting 3D Worlds
-*Project:*  https://3d-generalist.pages.dev/
-
 ### GameNGen: DIFFUSION MODELS ARE REAL-TIME GAME ENGINES, Doom demo
 GameNGen, the first game engine powered entirely by a neural model that enables real-time interaction with a complex environment over long trajectories at high quality. 
 *Project:*  https://gamengen.github.io
@@ -188,7 +185,17 @@ https://arxiv.org/abs/2412.05263
 
 ## Creating New Games with Generative Interactive Videos
 * *Paper:* https://arxiv.org/pdf/2501.08325
-* 
+
+# 3d
+## 3d Generalist: Vision-Language-Action Models for Crafting 3D Worlds
+*Project:*  https://3d-generalist.pages.dev/
+
+## 3World-consistent Video Diffusion with Explicit 3D Modeling 
+*Project:* https://zqh0253.github.io/wvd/
+
+## Matrix3D: Large Photogrammetry Model All-in-One
+* *Paper:* https://arxiv.org/pdf/2502.07685
+
 # Humans
 ## HumanDiT
 * *Project:* https://agnjason.github.io/HumanDiT-page/
