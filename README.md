@@ -88,6 +88,10 @@ Source https://huggingface.co/blog/video_gen
 * https://oasis.decart.ai/welcome Minecraft
 
 ## Papers and code
+### Muse: Generative AI model designed for gameplay ideation
+WHAM (World and Human Action Model (WHAM), named “Muse,” is a generative AI model of a video game that can generate game visuals, controller actions, or both
+*Blog:* https://www.microsoft.com/en-us/research/blog/introducing-muse-our-first-generative-ai-model-designed-for-gameplay-ideation/
+
 ### GameFactory: Creating New Games with Generative Interactive Videos
 *Paper:* https://arxiv.org/abs/2501.08325
 *Project:*  https://3d-generalist.pages.dev/
