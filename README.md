@@ -185,7 +185,15 @@ Navigation is a fundamental skill of agents with visual-motor capabilities. We i
 We introduce a simple method for constructing versatile world models with pre-trained DINOv2 that generalize to complex environment dynamics, which enables zero-shot solutions at test time for arbitrary goals
 
 * *Paper:* https://arxiv.org/pdf/2411.04983
-  
+
+##  Unified Video Action Mode
+Joint Video-Action Optimization -- learns a unified latent space for both video and action generation.
+Decoupled Video-Action Decoding -- speeds up policy inference by skipping video generation.
+Masked Training -- enables a single model to handle diverse tasks while reducing overfitting.
+* *Project:* https://unified-video-action-model.github.io/
+* *Code:* https://github.com/ShuangLI59/unified_video_action
+
+
 ## Temporally-Controlled Multi-Event Video Generation
 MinT is the first text-to-video model capable of generating sequential events and controlling their timestamps.
 * *Project:* https://mint-video.github.io/
