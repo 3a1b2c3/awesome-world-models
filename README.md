@@ -9,13 +9,13 @@
 
 Source: https://huggingface.co/blog/video_gen
 
-## Yann LeCun's defintion (a bit techical)
-World Models Blend Generative AI with Reinforcement Learning
-If an llm compresses all text in internet a world model is the equivalent for Youtube.
+## Defintion  
+World Models Blend Generative AI with Reinforcement Learning. If an llm compresses all text in internet a world model is the equivalent for Youtube.
 
 For a more accessible definition see "World Models: the AI technology that could displace 3D as we know it"
 https://substack.com/home/post/p-153106976
 
+### Yann LeCun's defintion (a bit techical)
 Yann LeCun's definition. Given:
 - an observation x(t)
 - a previous estimate of the state of the world s(t)
