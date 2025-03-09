@@ -55,7 +55,6 @@ There is no collapse issue in that case.
   * Sora: A Review on Background, Technology, Limitations, and Opportunities of Large Vision Models, **Paper:** https://arxiv.org/pdf/2402.17177
 
 
-
 **Provider 	Model 	Open/Closed 	License**
 ___________________________________________________
 Meta 	**MovieGen** 	Closed (with a detailed technical report) 	Proprietary
@@ -113,6 +112,10 @@ tokenizers.
 
 * *Project:* https://d1qx31qr3h6wln.cloudfront.net/publications/NVIDIA%20Cosmos_2.pdf
 * *Code:* https://github.com/NVIDIA/Cosmos
+
+##### GEN3C: 3D-Informed World-Consistent Video Generation with Precise Camera Control, using Cosmos
+https://research.nvidia.com/labs/toronto-ai/GEN3C/
+
 
 #### Open-Sora’s 
 methodology revolves around a comprehensive training pipeline incorporating video compression, denoising, and decoding stages to process and generate video content efficiently. Using a video compression network, the model compresses videos into sequences of spatial-temporal patches in latent space, then refined through a Diffusion Transformer for denoising, followed by decoding to produce the final video output. This innovative approach allows for handling various sizes and complexities of videos with improved efficiency and reduced computational demands.
