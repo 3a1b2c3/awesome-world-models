@@ -119,7 +119,7 @@ https://research.nvidia.com/labs/toronto-ai/GEN3C/
 
 #### Open-Sora’s 
 methodology revolves around a comprehensive training pipeline incorporating video compression, denoising, and decoding stages to process and generate video content efficiently. Using a video compression network, the model compresses videos into sequences of spatial-temporal patches in latent space, then refined through a Diffusion Transformer for denoising, followed by decoding to produce the final video output. This innovative approach allows for handling various sizes and complexities of videos with improved efficiency and reduced computational demands.
-
+[2025.03.12] 🔥 We released Open-Sora 2.0 (11B). 🎬 11B model achieves on-par performance with 11B HunyuanVideo & 30B Step-Video on 📐VBench & 📊Human Preference. 🛠️ Fully open-source: checkpoints and training codes for training with only $200K. [report]
 * *Project:* https://github.com/PKU-YuanGroup/Open-Sora-Plan
 * *Project:* https://hpcaitech.github.io/Open-Sora/ no windows, 24 GB RAM+
 
