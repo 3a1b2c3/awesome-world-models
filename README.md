@@ -112,7 +112,10 @@ tokenizers.
 
 * *Project:* https://d1qx31qr3h6wln.cloudfront.net/publications/NVIDIA%20Cosmos_2.pdf
 * *Code:* https://github.com/NVIDIA/Cosmos
-* *Cosmos transfer;* https://github.com/nvidia-cosmos/cosmos-transfer1
+* *Cosmos transfer: * https://github.com/nvidia-cosmos/cosmos-transfer1
+GEN3C: 3D-Informed World-Consistent Video Generation with Precise Camera Control, using Cosmos
+https://research.nvidia.com/labs/toronto-ai/GEN3C/
+
 
 ##### GEN3C: 3D-Informed World-Consistent Video Generation with Precise Camera Control, using Cosmos
 https://research.nvidia.com/labs/toronto-ai/GEN3C/
