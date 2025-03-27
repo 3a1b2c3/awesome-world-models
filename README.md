@@ -120,6 +120,9 @@ https://research.nvidia.com/labs/toronto-ai/GEN3C/
 ##### GEN3C: 3D-Informed World-Consistent Video Generation with Precise Camera Control, using Cosmos
 https://research.nvidia.com/labs/toronto-ai/GEN3C/
 
+### DynamiCrafter: Animating Open-domain Images with Video Diffusion Priors
+Samller Apache licensed model
+**Project page**: https://doubiiu.github.io/projects/DynamiCrafter
 
 #### Open-Sora’s 
 methodology revolves around a comprehensive training pipeline incorporating video compression, denoising, and decoding stages to process and generate video content efficiently. Using a video compression network, the model compresses videos into sequences of spatial-temporal patches in latent space, then refined through a Diffusion Transformer for denoising, followed by decoding to produce the final video output. This innovative approach allows for handling various sizes and complexities of videos with improved efficiency and reduced computational demands.
