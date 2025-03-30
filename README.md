@@ -242,7 +242,12 @@ It is simultaneously multiple things:
     
 * *Project and code:* https://github.com/Genesis-Embodied-AI/Genesis
 
-## Physics IQ Benchmark:
+## Benchmarks:
+### VBench-2.9
+Advancing Video Generation Benchmark Suite for Intrinsic Faithfulness:
+https://huggingface.co/papers/2503.21755
+
+### Physics IQ Benchmark:
 Do generative video models learn physical principles from watching videos?
 * *Paper:*  https://drive.google.com/file/d/1ac93646QoMlFtcO_6GlcZXex7lPzRWaE/view
 * *Project and code:* [[https://github.com/Genesis-Embodied-AI/Genesis](https://physics-iq.github.io/)](https://physics-iq.github.io/)
