@@ -250,6 +250,9 @@ It is simultaneously multiple things:
 * *Project and code:* https://github.com/Genesis-Embodied-AI/Genesis
 
 ## Benchmarks:
+### E3D-Bench: A Benchmark for End-to-End 3D Geometric Foundation Models
+https://e3dbench.github.io/
+
 ### VBench-2.9
 Advancing Video Generation Benchmark Suite for Intrinsic Faithfulness:
 https://huggingface.co/papers/2503.21755
