@@ -83,7 +83,9 @@ Genmo 	**Mochi-1** 	Open 	Apache 2.0
 
 RhymesAI 	**Allegro** 	Open 	Apache 2.0
 
-Lightricks 	**LTX Video** 	Open 	Custom
+Lightricks 	**LTX Video** 	Open 	Custom  
+
+Sourcehttps://github.com/Lightricks/LTX-Video
 
 Tencent 	**Hunyuan Video** 	Open 	Custom
 
@@ -100,6 +102,10 @@ https://hunyuan-gamecraft.github.io/
 * https://oasis.decart.ai/welcome Minecraft
 
 ## Papers and code
+###
+*Paper:* https://arxiv.org/abs/2501.00103
+* Code (Apache): https://github.com/Lightricks/LTX-Video
+
 ### Hunyuan-GameCraft High-dynamic Interactive Game Video Generation with Hybrid History Condition
 * https://hunyuan-gamecraft.github.io/
 *Paper:* [https://arxiv.org/abs/2506.18901](https://arxiv.org/abs/2506.17201)
