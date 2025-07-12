@@ -151,7 +151,6 @@ Most advanced opensource model, 3d and avatar aimation capabilities
   *Code:* https://github.com/Tencent/HunyuanVideo
   *Code 3d:* [[[https://github.com/Tencent/HunyuanVideo](https://github.com/Tencent/Hunyuan3D-1](https://github.com/Tencent/Hunyuan3D-2))](https://github.com/Tencent/Hunyuan3D-2),  *Paper:* https://arxiv.org/pdf/2411.02293
 
-
 ## Learning Generative Interactive Environments by Trained Agent Exploration
 Proposes to improve the model by employing reinforcement learning based agents for data generation.
 
@@ -275,6 +274,10 @@ It is simultaneously multiple things:
 * *Project and code:* https://github.com/Genesis-Embodied-AI/Genesis
 
 ## Benchmarks:
+### PBench: A Physical AI Benchmark for World Models
+We measure two scores in PBench: Domain Score and Quality Score. The Domain Score measures the domain-specific capabilities of the world model via the QA pairs, and the Quality Score measures the quality of the generated video. Given a generated video from a world model and the corresponding QA pairs in PBench, we employ a VLM (Qwen2.5-VL-72B-Instruct) as a judge to measure the generated video by calculating the accuracy as the domain score on all the QA pairs for each sample.
+* https://research.nvidia.com/labs/dir/pbench/
+
 ### E3D-Bench: A Benchmark for End-to-End 3D Geometric Foundation Models
 https://e3dbench.github.io/
 
