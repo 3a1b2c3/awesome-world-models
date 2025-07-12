@@ -95,6 +95,12 @@ Source https://huggingface.co/blog/video_gen
  
  
 # Games
+Comoparing gme gen models
+
+<img width="2440" height="632" alt="image" src="https://github.com/user-attachments/assets/8f11d844-ab57-469f-9482-1b791e2dd363" />
+
+Source Hunyuan-GameCraft: High-dynamic Interactive Game Video Generation with Hybrid History Condition
+
 ## Playable demos 
 * Hunyuan-GameCraft High-dynamic Interactive Game Video Generation with Hybrid History Condition
 https://hunyuan-gamecraft.github.io/
