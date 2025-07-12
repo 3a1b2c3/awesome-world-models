@@ -90,6 +90,10 @@ Source https://huggingface.co/blog/video_gen
 * https://oasis.decart.ai/welcome Minecraft
 
 ## Papers and code
+### From Virtual Games to Real-World Play
+https://wenqsun.github.io/RealPlay/
+*Paper:* https://arxiv.org/abs/2506.18901
+
 ### Muse: Generative AI model designed for gameplay ideation
 WHAM (World and Human Action Model (WHAM), named “Muse,” is a generative AI model of a video game that can generate game visuals, controller actions, or both
 *Blog:* https://www.microsoft.com/en-us/research/blog/introducing-muse-our-first-generative-ai-model-designed-for-gameplay-ideation/
@@ -118,9 +122,6 @@ tokenizers.
 GEN3C: 3D-Informed World-Consistent Video Generation with Precise Camera Control, using Cosmos
 https://research.nvidia.com/labs/toronto-ai/GEN3C/
 
-
-##### GEN3C: 3D-Informed World-Consistent Video Generation with Precise Camera Control, using Cosmos
-https://research.nvidia.com/labs/toronto-ai/GEN3C/
 
 ### DynamiCrafter: Animating Open-domain Images with Video Diffusion Priors
 Samller Apache licensed model
@@ -176,9 +177,6 @@ The key idea behind AVID is to adapt the video diffusion model to better underst
 
 * *Paper:* https://arxiv.org/pdf/2410.12822
 
-## Cavia: Camera-controllable Multi-view Video Diffusion with View-Integrated Attention
-We present Cavia, the first framework that enables users to generate multiple videos of the same scene with precise control over camera motion, while simultaneously preserving object motion.
-* *Paper:* https://arxiv.org/pdf/2410.10774
 
 ## Promptable Game Models: Text-Guided Game Simulation via Masked Diffusion Models
 Proposes Promptable Game Models (PGMs), controllable models of games that are learned from annotated videos.
@@ -203,7 +201,6 @@ Masked Training -- enables a single model to handle diverse tasks while reducing
 * *Project:* https://unified-video-action-model.github.io/
 * *Code:* https://github.com/ShuangLI59/unified_video_action
 
-
 ## Temporally-Controlled Multi-Event Video Generation
 MinT is the first text-to-video model capable of generating sequential events and controlling their timestamps.
 * *Project:* https://mint-video.github.io/
@@ -211,6 +208,17 @@ https://arxiv.org/abs/2412.05263
 
 ## Creating New Games with Generative Interactive Videos
 * *Paper:* https://arxiv.org/pdf/2501.08325
+* 
+# Camera control
+## Cavia: Camera-controllable Multi-view Video Diffusion with View-Integrated Attention
+We present Cavia, the first framework that enables users to generate multiple videos of the same scene with precise control over camera motion, while simultaneously preserving object motion.
+* *Paper:* https://arxiv.org/pdf/2410.10774
+
+## ShotAdapter: Text-to-Multi-Shot Video Generation with Diffusion Models
+https://shotadapter.github.io/
+
+##### GEN3C: 3D-Informed World-Consistent Video Generation with Precise Camera Control, using Cosmos
+https://research.nvidia.com/labs/toronto-ai/GEN3C/
 
 # 3d
 ## 3d Generalist: Vision-Language-Action Models for Crafting 3D Worlds
