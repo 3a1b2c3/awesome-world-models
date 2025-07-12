@@ -224,6 +224,10 @@ https://arxiv.org/abs/2412.05263
 * *Project:* https://agnjason.github.io/HumanDiT-page/
 
 # Mapping
+## Mars
+Martian World Models : Controllable Video Synthesis with Physically Accurate 3D Reconstructions
+https://marsgenai.github.io/
+
 ## GPS as a Control Signal for Image Generation
 https://cfeng16.github.io/gps-gen/
 
