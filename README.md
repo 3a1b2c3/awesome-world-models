@@ -54,7 +54,7 @@ There is no collapse issue in that case.
 * google genie-2 https://deepmind.google/discover/blog/genie-2-a-large-scale-foundation-world-model/
 * google video poet https://fliki.ai/blog/google-videopoet
 * google veo-2 https://deepmind.google/technologies/veo/veo-2/
-   * veo3 https://storage.googleapis.com/deepmind-media/veo/Veo-3-Tech-Report.pdf
+   * veo-3 https://storage.googleapis.com/deepmind-media/veo/Veo-3-Tech-Report.pdf
      
 * Pika https://pika.art/
 * Luma ai https://lumalabs.ai/dream-machine
@@ -87,7 +87,7 @@ RhymesAI 	**Allegro** 	Open 	Apache 2.0
 
 Lightricks 	**LTX Video** 	Open 	Custom  
 
-Sourcehttps://github.com/Lightricks/LTX-Video
+Source https://github.com/Lightricks/LTX-Video
 
 Tencent 	**Hunyuan Video** 	Open 	Custom
 
