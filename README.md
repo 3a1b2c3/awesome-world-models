@@ -137,6 +137,9 @@ Most advanced opensource model, 3d and avatar aimation capabilities
   *Code:* https://github.com/Tencent/HunyuanVideo
   *Code 3d:* [[[https://github.com/Tencent/HunyuanVideo](https://github.com/Tencent/Hunyuan3D-1](https://github.com/Tencent/Hunyuan3D-2))](https://github.com/Tencent/Hunyuan3D-2),  *Paper:* https://arxiv.org/pdf/2411.02293
 
+## The World's First AI-Native UGC Game Engine Powered by Real-Time World Model
+* Playable demo https://blog.dynamicslab.ai/
+
 ## Learning Generative Interactive Environments by Trained Agent Exploration
 Proposes to improve the model by employing reinforcement learning based agents for data generation.
 
