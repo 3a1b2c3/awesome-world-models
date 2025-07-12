@@ -272,6 +272,10 @@ underlying map/layout hosting the desired trajectory.
 
 
 # Physics
+## v-jepa-2
+V-JEPA 2 world model and new benchmarks for physical reasoning
+https://ai.meta.com/blog/v-jepa-2-world-model-benchmarks/
+
 ## Genesis: physics platform designed for general purpose Robotics/Embodied AI/Physical AI applications
 It is simultaneously multiple things:
     A universal physics engine re-built from the ground up, capable of simulating a wide range of materials and physical phenomena.
