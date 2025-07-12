@@ -87,15 +87,13 @@ RhymesAI 	**Allegro** 	Open 	Apache 2.0
 
 Lightricks 	**LTX Video** 	Open 	Custom  
 
-Source https://github.com/Lightricks/LTX-Video
-
 Tencent 	**Hunyuan Video** 	Open 	Custom
 
 Source https://huggingface.co/blog/video_gen
  
  
 # Games
-Comoparing gme gen models
+Comoparing game gen models
 
 <img width="2440" height="632" alt="image" src="https://github.com/user-attachments/assets/8f11d844-ab57-469f-9482-1b791e2dd363" />
 
@@ -110,11 +108,13 @@ https://hunyuan-gamecraft.github.io/
 * https://oasis.decart.ai/welcome Minecraft
 
 ## Papers and code
-###
+###LTX Video
+
 *Paper:* https://arxiv.org/abs/2501.00103
 * Code (Apache): https://github.com/Lightricks/LTX-Video
 
-### Hunyuan-GameCraft High-dynamic Interactive Game Video Generation with Hybrid History Condition
+### Hunyuan-GameCraft 
+High-dynamic Interactive Game Video Generation with Hybrid History Condition
 * https://hunyuan-gamecraft.github.io/
 *Paper:* [https://arxiv.org/abs/2506.18901](https://arxiv.org/abs/2506.17201)
 
