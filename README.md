@@ -3,7 +3,7 @@
   * [Playable demos](#playable-demos)
   * [Papers and code](#papers-and-code)
   * - [Physics](#physics)
-   * [Benchmarks:](#benchmarks)
+  * - [Benchmarks:](#benchmarks)
   * [World models 2023 and before](#world-models-2023-and-before)
   * [Background](#background)
 
