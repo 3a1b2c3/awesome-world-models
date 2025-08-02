@@ -250,7 +250,7 @@ https://shotadapter.github.io/
 ##### GEN3C: 3D-Informed World-Consistent Video Generation with Precise Camera Control, using Cosmos
 https://research.nvidia.com/labs/toronto-ai/GEN3C/
 
-# 3d
+# 3d World creation
 ## HunyuanWorld 3d
 immersive and playable 3D worlds from texts or images 
 * *Code:*  https://github.com/Tencent-Hunyuan/HunyuanWorld-1.0
@@ -258,7 +258,15 @@ immersive and playable 3D worlds from texts or images
 
 ## WorldGen, 2025
 Worldgen: Generate any 3d scene in seconds. 
+
 * *Code:* https://github.com/ZiYang-xie/
+
+## WonderJourney: Going from Anywhere to Everywhere
+Start at any user-provided location (by a text description or an
+image), and generate a journey through a long sequence of
+diverse yet coherently connected 3D scene
+
+* *Paper:*  https://arxiv.org/pdf/2312.03884
   
 ## 3d Generalist: Vision-Language-Action Models for Crafting 3D Worlds
 *Project:*  https://3d-generalist.pages.dev/
@@ -270,7 +278,8 @@ Worldgen: Generate any 3d scene in seconds.
 * *Paper:* https://arxiv.org/pdf/2502.07685
 
 ## Domain-free generation of 3d gaussian splatting scenes
-Jaeyoung Chung, Suyoung Lee, Hyeongjin Nam, Jaerin Lee, and Kyoung Mu Lee. Luciddreamer: arXiv preprint arXiv:2311.13384, 2023.
+* *Code:*  https://luciddreamer-cvlab.github.io/
+* *Paper:* https://arxiv.org/abs/2311.13384
 
 # Humans
 ## HumanDiT
