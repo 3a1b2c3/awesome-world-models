@@ -18,8 +18,7 @@ Source: https://huggingface.co/blog/video_gen
 ## Defintion  
 World Models Blend Generative AI with Reinforcement Learning. If an llm compresses all text in internet a world model is the equivalent for Youtube.
 
-For a more accessible definition see "World Models: the AI technology that could displace 3D as we know it"
-https://substack.com/home/post/p-153106976
+For a more accessible definition see (https://www.youtube.com/watch?v=iv-5mZ_9CPY)](https://www.youtube.com/watch?v=iv-5mZ_9CPY)
 
 ### Yann LeCun's defintion (a bit techical)
 Yann LeCun's definition. Given:
