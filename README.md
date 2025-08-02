@@ -165,10 +165,6 @@ Most advanced opensource model, 3d and avatar aimation capabilities
   *Code:* https://github.com/Tencent/HunyuanVideo
   *Code 3d:* [[[https://github.com/Tencent/HunyuanVideo](https://github.com/Tencent/Hunyuan3D-1](https://github.com/Tencent/Hunyuan3D-2))](https://github.com/Tencent/Hunyuan3D-2),  *Paper:* https://arxiv.org/pdf/2411.02293
   
-#### HunyuanWorld 3d
-immersive and playable 3D worlds from texts or images 
-  *Code:*  ttps://github.com/Tencent-Hunyuan/HunyuanWorld-1.0
-
 ## Learning Generative Interactive Environments by Trained Agent Exploration
 Proposes to improve the model by employing reinforcement learning based agents for data generation.
 
@@ -255,6 +251,11 @@ https://shotadapter.github.io/
 https://research.nvidia.com/labs/toronto-ai/GEN3C/
 
 # 3d
+#### HunyuanWorld 3d
+immersive and playable 3D worlds from texts or images 
+* *Code:*  https://github.com/Tencent-Hunyuan/HunyuanWorld-1.0
+* *Paper:* https://arxiv.org/pdf/2507.21809
+
 ## 3d Generalist: Vision-Language-Action Models for Crafting 3D Worlds
 *Project:*  https://3d-generalist.pages.dev/
 
