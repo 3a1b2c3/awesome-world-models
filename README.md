@@ -258,7 +258,15 @@ immersive and playable 3D worlds from texts or images
 
 ## WorldGen, 2025
 Worldgen: Generate any 3d scene in seconds. 
+
 * *Code:* https://github.com/ZiYang-xie/
+
+## WonderJourney: Going from Anywhere to Everywhere
+Start at any user-provided location (by a text description or an
+image), and generate a journey through a long sequence of
+diverse yet coherently connected 3D scene
+
+* *Paper:*  https://arxiv.org/pdf/2312.03884
   
 ## 3d Generalist: Vision-Language-Action Models for Crafting 3D Worlds
 *Project:*  https://3d-generalist.pages.dev/
