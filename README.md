@@ -250,7 +250,12 @@ https://shotadapter.github.io/
 ##### GEN3C: 3D-Informed World-Consistent Video Generation with Precise Camera Control, using Cosmos
 https://research.nvidia.com/labs/toronto-ai/GEN3C/
 
-# 3d World creation
+# 3d/4d World creation
+## DimensionX
+DimensionX: Create Any 3D and 4D Scenes from a Single Image with
+Controllable Video Diffusion
+* *Code:* https://github.com/wenqsun/DimensionX
+* *Paper:* https://arxiv.org/pdf/2411.04928
 ## HunyuanWorld 3d
 immersive and playable 3D worlds from texts or images 
 * *Code:*  https://github.com/Tencent-Hunyuan/HunyuanWorld-1.0
