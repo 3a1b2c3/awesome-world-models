@@ -251,11 +251,15 @@ https://shotadapter.github.io/
 https://research.nvidia.com/labs/toronto-ai/GEN3C/
 
 # 3d
-#### HunyuanWorld 3d
+## HunyuanWorld 3d
 immersive and playable 3D worlds from texts or images 
 * *Code:*  https://github.com/Tencent-Hunyuan/HunyuanWorld-1.0
 * *Paper:* https://arxiv.org/pdf/2507.21809
 
+## WorldGen, 2025
+Worldgen: Generate any 3d scene in seconds. 
+* *Code:* https://github.com/ZiYang-xie/
+  
 ## 3d Generalist: Vision-Language-Action Models for Crafting 3D Worlds
 *Project:*  https://3d-generalist.pages.dev/
 
@@ -264,6 +268,9 @@ immersive and playable 3D worlds from texts or images
 
 ## Matrix3D: Large Photogrammetry Model All-in-One
 * *Paper:* https://arxiv.org/pdf/2502.07685
+
+## Domain-free generation of 3d gaussian splatting scenes
+Jaeyoung Chung, Suyoung Lee, Hyeongjin Nam, Jaerin Lee, and Kyoung Mu Lee. Luciddreamer: arXiv preprint arXiv:2311.13384, 2023.
 
 # Humans
 ## HumanDiT
