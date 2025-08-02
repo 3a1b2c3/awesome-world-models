@@ -144,6 +144,7 @@ tokenizers.
 * *Project:* https://d1qx31qr3h6wln.cloudfront.net/publications/NVIDIA%20Cosmos_2.pdf
 * *Code:* https://github.com/NVIDIA/Cosmos
 * *Cosmos transfer: * https://github.com/nvidia-cosmos/cosmos-transfer1
+  
 GEN3C: 3D-Informed World-Consistent Video Generation with Precise Camera Control, using Cosmos
 https://research.nvidia.com/labs/toronto-ai/GEN3C/
 
@@ -164,6 +165,10 @@ Most advanced opensource model, 3d and avatar aimation capabilities
   *Code:* https://github.com/Tencent/HunyuanDiT 
   *Code:* https://github.com/Tencent/HunyuanVideo
   *Code 3d:* [[[https://github.com/Tencent/HunyuanVideo](https://github.com/Tencent/Hunyuan3D-1](https://github.com/Tencent/Hunyuan3D-2))](https://github.com/Tencent/Hunyuan3D-2),  *Paper:* https://arxiv.org/pdf/2411.02293
+  
+#### HunyuanWorld 3d
+immersive and playable 3D worlds from texts or images 
+  *Code:*  ttps://github.com/Tencent-Hunyuan/HunyuanWorld-1.0
 
 ## Learning Generative Interactive Environments by Trained Agent Exploration
 Proposes to improve the model by employing reinforcement learning based agents for data generation.
