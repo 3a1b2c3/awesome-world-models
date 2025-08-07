@@ -50,9 +50,9 @@ There is no collapse issue in that case.
 ## Commercial world models: no code or papers
 * odyssey https://odyssey.systems/introducing-explorer#waitlist
 * worldlabs https://www.worldlabs.ai/blog
-* google genie-3 [https://deepmind.google/discover/blog/genie-2-a-large-scale-foundation-world-model/](https://deepmind.google/discover/blog/genie-3-a-new-frontier-for-world-models/)
+* google genie-3: https://deepmind.google/discover/blog/genie-3-a-new-frontier-for-world-models/
 * google video poet https://fliki.ai/blog/google-videopoet
-* google veo-2 https://deepmind.google/technologies/veo/veo-2/
+* google veo [https://deepmind.google/technologies/veo/veo-2/](https://deepmind.google/models/veo/)
    * veo-3 https://storage.googleapis.com/deepmind-media/veo/Veo-3-Tech-Report.pdf
      
 * Pika https://pika.art/
