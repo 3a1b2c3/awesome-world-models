@@ -1,204 +1,204 @@
-  * [Yann LeCun's defintion (a bit techical)](#yann-lecun-s-defintion--a-bit-techical-)
-  * [Commercial world models: no code or papers](#commercial-world-models--no-code-or-papers)
-  * [Playable demos](#playable-demos)
-  * [Papers and code](#papers-and-code)
-  * - [3d](#3d)
-  * - [Camera control](#camera-control)
-  * - [Humans](#humans)
-  * - [Mapping](#mapping)
-  * - [Physics](#physics)
-  * - [Benchmarks:](#benchmarks)
-  * [World models 2023 and before](#world-models-2023-and-before)
-  * [Background](#background)
+# World Models Overview
 
-<img src=https://github.com/user-attachments/assets/c65aa56c-4f4e-45b9-a5a6-5be630ed6a7e alt="drawing" style="width:400px;"/></img>
+## Table of Contents
+* [Yann LeCun's Definition (a bit technical)](#yann-lecuns-definition-a-bit-technical)
+  * [Commercial World Models: No Code or Papers](#commercial-world-models-no-code-or-papers)
+  * [Playable Demos](#playable-demos)
+  * [Papers and Code](#papers-and-code)
+  * [3D World Models](#3d-world-models)
+  * [Camera Control](#camera-control)
+  * [Humans](#humans)
+  * [Mapping](#mapping)
+  * [Physics](#physics)
+  * [Benchmarks](#benchmarks)
+* [World Models 2023 and Before](#world-models-2023-and-before)
+* [Background](#background)
 
-Source: https://huggingface.co/blog/video_gen
+<img src="https://github.com/user-attachments/assets/c65aa56c-4f4e-45b9-a5a6-5be630ed6a7e" alt="World Models Illustration" style="width:400px;"/>
 
-## Defintion  
-World Models Blend Generative AI with Reinforcement Learning. If an llm compresses all text in internet a world model is the equivalent for Youtube.
+Source: [Hugging Face Video Generation Blog](https://huggingface.co/blog/video_gen)
 
-For a more accessible definition see (https://www.youtube.com/watch?v=iv-5mZ_9CPY)](https://www.youtube.com/watch?v=iv-5mZ_9CPY)
+## Definition  
+World Models blend generative AI with reinforcement learning. If a language model compresses all the text on the internet, a world model does the equivalent for video data—compressing the visual world (e.g., YouTube).
 
-### Yann LeCun's defintion (a bit techical)
-Yann LeCun's definition. Given:
+For a more accessible explanation, see this [YouTube video](https://www.youtube.com/watch?v=iv-5mZ_9CPY).
+
+### Yann LeCun's Definition (a bit technical)
+Given:
 - an observation x(t)
-- a previous estimate of the state of the world s(t)
+- a previous state estimate s(t)
 - an action proposal a(t)
-- a latent variable proposal z(t)
+- a latent proposal z(t)
 
 A world model computes:
-- representation: h(t) = Enc(x(t))
-- prediction: s(t+1) = Pred( h(t), s(t), z(t), a(t) )
-Where
-- Enc() is an encoder (a trainable deterministic function, e.g. a neural net)
-- Pred() is a hidden state predictor (also a trainable deterministic function).
-- the latent variable z(t) represents the unknown information that would allow us to predict exactly what happens. It must be sampled from a distribution or or varied over a set. It parameterizes the set (or distribution) of plausible predictions.
+- **Representation**: h(t) = Enc(x(t))
+- **Prediction**: s(t+1) = Pred(h(t), s(t), z(t), a(t))
 
-The trick is to train the entire thing from observation triplets (x(t),a(t),x(t+1)) while preventing the Encoder from collapsing to a trivial solution on which it ignores the input.
-Auto-regressive generative models (such as LLMs) are a simplified special case in which
-1. the Encoder is the identity function: h(t) = x(t),
-2. the state is a window of past inputs 
-3. there is no action variable a(t)
-4. x(t) is discrete
-5. the Predictor computes a distribution over outcomes for x(t+1) and uses the latent z(t) to select one value from that distribution.
-The equations reduce to:
-s(t) = [x(t),x(t-1),...x(t-k)]
-x(t+1) = Pred( s(t), z(t) )
-There is no collapse issue in that case.
+Where:
+- **Enc()** is a trainable deterministic encoder (e.g. a neural net).
+- **Pred()** is a deterministic state predictor.
+- **z(t)** represents unknown factors that allow exact future prediction; it is sampled from a distribution.
 
-## Commercial world models: no code or papers
-* odyssey https://odyssey.systems/introducing-explorer#waitlist
-* worldlabs https://www.worldlabs.ai/blog
-* google genie-3: https://deepmind.google/discover/blog/genie-3-a-new-frontier-for-world-models/
-* google video poet https://fliki.ai/blog/google-videopoet
-* google veo [https://deepmind.google/technologies/veo/veo-2/](https://deepmind.google/models/veo/)
-   * veo-3 https://storage.googleapis.com/deepmind-media/veo/Veo-3-Tech-Report.pdf
-     
-* Pika https://pika.art/
-* Luma ai https://lumalabs.ai/dream-machine
-* Oasis https://www.decart.ai/articles/oasis-interactive-ai-video-game-model
-* openai sora https://openai.com/sora/ Is Sora a World Simulator? A Comprehensive Survey on General World Models and Beyond (from GigaAI)
-  * Sora: A Review on Background, Technology, Limitations, and Opportunities of Large Vision Models, **Paper:** https://arxiv.org/pdf/2402.17177
+The entire system is trained using triplets (x(t), a(t), x(t+1)) while avoiding trivial encoder collapse.
 
+Auto-regressive generative models (like LLMs) simplify this:
+1. The encoder is the identity: h(t) = x(t).
+2. The state is a window of past inputs.
+3. No action a(t) is used.
+4. x(t) is discrete.
+5. The predictor computes a distribution over x(t+1) and selects a value via z(t).
 
-**Provider 	Model 	Open/Closed 	License**
-___________________________________________________
-Meta 	**MovieGen** 	Closed (with a detailed technical report) 	Proprietary
+## Commercial World Models: No Code or Papers
+- **Odyssey** – [Explorer](https://odyssey.systems/introducing-explorer#waitlist)
+- **WorldLabs** – [Blog](https://www.worldlabs.ai/blog)
+- **Google Genie-3** – [DeepMind Blog](https://deepmind.google/discover/blog/genie-3-a-new-frontier-for-world-models/)
+- **Google Video Poet** – [Fliki Blog](https://fliki.ai/blog/google-videopoet)
+- **Google Veo** – [Veo 2](https://deepmind.google/models/veo/)  
+  - [Veo-3 Report](https://storage.googleapis.com/deepmind-media/veo/Veo-3-Tech-Report.pdf)
+- **Pika** – [Pika Website](https://pika.art/)
+- **Luma AI** – [Dream Machine](https://lumalabs.ai/dream-machine)
+- **Oasis** – [Decart’s Article](https://www.decart.ai/articles/oasis-interactive-ai-video-game-model)
+- **OpenAI Sora** – [OpenAI Website](https://openai.com/sora/)  
+  - *Survey Paper:* [Sora Review](https://arxiv.org/pdf/2402.17177)
 
-OpenAI 	**Sora**	Closed 	Proprietary
+**Provider | Model | Open/Closed | License**  
+---|---|---|---  
+Meta | **MovieGen** | Closed | Proprietary  
+OpenAI | **Sora** | Closed | Proprietary  
+Google | **Veo 2** | Closed | Proprietary  
+RunwayML | **Gen 3 (Alpha)** | Closed | Proprietary  
+Pika Labs | **Pika 2.0** | Closed | Proprietary  
+KlingAI | **Kling** | Closed | Proprietary  
+Haliluo | **MiniMax** | Closed | Proprietary  
+THUDM | **CogVideoX** | Open | Custom  
+Genmo | **Mochi-1** | Open | Apache 2.0  
+RhymesAI | **Allegro** | Open | Apache 2.0  
+Lightricks | **LTX Video** | Open | Custom  
+Tencent | **Hunyuan Video** | Open | Custom  
 
-Google 	**Veo 2** 	Closed 	Proprietary
+Source: [Hugging Face Video Generation Blog](https://huggingface.co/blog/video_gen)
 
-RunwayML 	**Gen 3** Alpha 	Closed 	Proprietary
+## World Models 2023 and Before
+*Overview of earlier models and their evolution.*
 
-Pika Labs 	**Pika 2.0** 	Closed 	Proprietary
+## Background 
 
-KlingAI 	**Kling** 	Closed 	Proprietary
+### World Models in Games
+- **Hunyuan-GameCraft**: Interactive game video generation with hybrid history conditioning.  
+  [Demo](https://hunyuan-gamecraft.github.io/) | [Paper](https://arxiv.org/abs/2506.17201)
+- **AIGame Engine**: AI-Native UGC engine powered by real-time world models.  
+  [Blog](https://blog.dynamicslab.ai/)
+- **Odyssey World**: A research preview of interactive video generation in real time.  
+  [Interactive Video](https://odyssey.world/introducing-interactive-video)
+- **XYZ Diamond**: Counter-Strike-like interactive game demo.  
+  [Demo](https://next.journee.ai/xyz-diamond)
 
-Haliluo 	**MiniMax** 	Closed 	Proprietary
+### Papers and Code
+#### LTX Video
+- *Paper*: [https://arxiv.org/abs/2501.00103](https://arxiv.org/abs/2501.00103)  
+- *Code*: [GitHub Repository](https://github.com/Lightricks/LTX-Video)
 
-THUDM 	**CogVideoX** 	Open 	Custom
+#### Hunyuan-GameCraft 
+- [Demo](https://hunyuan-gamecraft.github.io/)  
+- *Paper*: [https://arxiv.org/abs/2506.17201](https://arxiv.org/abs/2506.17201)
 
-Genmo 	**Mochi-1** 	Open 	Apache 2.0
+#### From Virtual Games to Real-World Play
+- [Website](https://wenqsun.github.io/RealPlay/)  
+- *Paper*: [https://arxiv.org/abs/2506.18901](https://arxiv.org/abs/2506.18901)
 
-RhymesAI 	**Allegro** 	Open 	Apache 2.0
+#### Muse for Gameplay Ideation
+- *Blog*: [Introducing Muse](https://www.microsoft.com/en-us/research/blog/introducing-muse-our-first-generative-ai-model-designed-for-gameplay-ideation/)
 
-Lightricks 	**LTX Video** 	Open 	Custom  
+#### GameFactory
+- *Paper*: [https://arxiv.org/abs/2501.08325](https://arxiv.org/abs/2501.08325)  
+- *Project*: [3D Generalist](https://3d-generalist.pages.dev/)
 
-Tencent 	**Hunyuan Video** 	Open 	Custom
+#### GameNGen
+- *Demo*: [Doom Demo](https://gamengen.github.io)
 
-Source https://huggingface.co/blog/video_gen
- 
- 
-# Games
-Comoparing game gen models
+#### Additional References
+- **Cosmos and Genie-3** (Google)
+- **DynamiCrafter**: Open-domain video diffusion.
+- **Open-Sora**: Survey and open-source training pipelines.
+- **Hunyuan-DiT / HunyuanVideo**: Advanced models with 3D capabilities.
 
-<img width="2440" height="632" alt="image" src="https://github.com/user-attachments/assets/8f11d844-ab57-469f-9482-1b791e2dd363" />
+## Camera Control
+- **Cavia**: Camera-controllable multi-view video diffusion with view-integrated attention.  
+  *Paper*: [https://arxiv.org/pdf/2410.10774](https://arxiv.org/pdf/2410.10774)
+- **ShotAdapter**: Text-to-multi-shot video generation with diffusion models.  
+  [Demo](https://shotadapter.github.io/)
 
-Source Hunyuan-GameCraft: High-dynamic Interactive Game Video Generation with Hybrid History Condition
+## 3D/4D World Creation
+- **DimensionX**: Generate any 3D/4D scene from a single image using controllable video diffusion.  
+  *Code*: [GitHub](https://github.com/wenqsun/DimensionX) | *Paper*: [https://arxiv.org/pdf/2411.04928](https://arxiv.org/pdf/2411.04928)
+- **HunyuanWorld 3D**: Playable 3D worlds from text or images.  
+  *Code*: [GitHub](https://github.com/Tencent-Hunyuan/HunyuanWorld-1.0) | *Paper*: [https://arxiv.org/pdf/2507.21809](https://arxiv.org/pdf/2507.21809)
+- **WorldGen**: Rapid generation of any 3D scene.  
+  *Code*: [GitHub](https://github.com/ZiYang-xie/)
+- **WonderJourney**: Generate connected 3D scene journeys from user input.  
+  *Paper*: [https://arxiv.org/pdf/2312.03884](https://arxiv.org/pdf/2312.03884)
+- **3D Generalist**: Vision-language-action models for 3D world creation.  
+  [Project](https://3d-generalist.pages.dev/)
+- **World-Consistent Video Diffusion**: With explicit 3D modeling.  
+  [Project](https://zqh0253.github.io/wvd/)
+- **Matrix3D**: All-in-one large photogrammetry model.  
+  *Paper*: [https://arxiv.org/pdf/2502.07685](https://arxiv.org/pdf/2502.07685)
+- **Domain-Free Generation of 3D Gaussian Splatting Scenes**  
+  *Code*: [Website](https://luciddreamer-cvlab.github.io/) | *Paper*: [https://arxiv.org/abs/2311.13384](https://arxiv.org/abs/2311.13384)
 
-## Playable demos 
-* Hunyuan-GameCraft High-dynamic Interactive Game Video Generation with Hybrid History Condition
-https://hunyuan-gamecraft.github.io/
-* AI-Native UGC Game Engine Powered by Real-Time World Model  https://blog.dynamicslab.ai/
-* A research preview of interactive video, generated by AI in real-time. https://odyssey.world/introducing-interactive-video
-* https://next.journee.ai/xyz-diamond Counter strike
-* https://oasis.decart.ai/welcome Minecraft
+## Humans
+- **HumanDiT**  
+  [Project](https://agnjason.github.io/HumanDiT-page/)
 
-## Papers and code
-###LTX Video
+## Mapping
+- **Mars**: Controllable video synthesis with accurate 3D reconstruction.  
+  [Demo](https://marsgenai.github.io/)
+- **GPS as a Control Signal for Image Generation**  
+  [Demo](https://cfeng16.github.io/gps-gen/)
+- **Streetscapes**: Consistent street view generation using autoregressive video diffusion.  
+  *Paper*: [https://arxiv.org/abs/2407.13759](https://arxiv.org/abs/2407.13759)
 
-*Paper:* https://arxiv.org/abs/2501.00103
-* Code (Apache): https://github.com/Lightricks/LTX-Video
+## Physics
+- **V-JEPA 2**: World model and physical reasoning benchmark.  
+  [Blog](https://ai.meta.com/blog/v-jepa-2-world-model-benchmarks/)
+- **Genesis**: Universal physics simulation platform for embodied/physical AI.  
+  [Project & Code](https://github.com/Genesis-Embodied-AI/Genesis)
 
-### Hunyuan-GameCraft 
-High-dynamic Interactive Game Video Generation with Hybrid History Condition
-* https://hunyuan-gamecraft.github.io/
-*Paper:* [https://arxiv.org/abs/2506.18901](https://arxiv.org/abs/2506.17201)
+## Benchmarks
+- **PBench**: Physical AI benchmark for world models.  
+  [Details](https://research.nvidia.com/labs/dir/pbench/)
+- **E3D-Bench**: Benchmark for 3D geometric foundation models.  
+  [Website](https://e3dbench.github.io/)
+- **VBench-2.9**: Video generation benchmark suite for measuring intrinsic faithfulness.
+- **Physics IQ Benchmark**: Assesses physical reasoning in generated videos.  
+  *Paper*: [Google Drive](https://drive.google.com/file/d/1ac93646QoMlFtcO_6GlcZXex7lPzRWaE/view) | [Project](https://physics-iq.github.io/)
 
-### From Virtual Games to Real-World Play
-https://wenqsun.github.io/RealPlay/
-*Paper:* https://arxiv.org/abs/2506.18901
+# World models history: 2013 - 2023 
+See list below for papers
+* 2013  Decoding “World Models” by David Ha and Jürgen Schmidhuber: A Milestone in AI Research
+ * *Project:*  https://worldmodels.github.io/
 
-### Muse: Generative AI model designed for gameplay ideation
-WHAM (World and Human Action Model (WHAM), named “Muse,” is a generative AI model of a video game that can generate game visuals, controller actions, or both
-*Blog:* https://www.microsoft.com/en-us/research/blog/introducing-muse-our-first-generative-ai-model-designed-for-gameplay-ideation/
+* https://github.com/PatrickHua/Awesome-World-Models
+* https://github.com/GigaAI-research/General-World-Models-Survey
 
-### GameFactory: Creating New Games with Generative Interactive Videos
-*Paper:* https://arxiv.org/abs/2501.08325
-*Project:*  https://3d-generalist.pages.dev/
-
-### GameNGen: DIFFUSION MODELS ARE REAL-TIME GAME ENGINES, Doom demo
-GameNGen, the first game engine powered entirely by a neural model that enables real-time interaction with a complex environment over long trajectories at high quality. 
-*Project:*  https://gamengen.github.io
-
-
-### Hunyuan, Cosmos, OpenSora and Open-Sora-Plan (see also Dit below)
-#### Cosmos (diffussion and autoregressive)
-Customized world models for their Physical AI setups. We position a world foundation model as a general-purpose world model that can be fine-tuned into customized world models for downstream applications. Our platform covers a video curation pipeline, pre-trained
-world foundation models, examples of post-training of pre-trained world foundation models, and video
-tokenizers. 
-
-* *Project:* https://d1qx31qr3h6wln.cloudfront.net/publications/NVIDIA%20Cosmos_2.pdf
-* *Code:* https://github.com/NVIDIA/Cosmos
-* *Cosmos transfer: * https://github.com/nvidia-cosmos/cosmos-transfer1
+## Background 
+### ViT: Transformers for Image Recognition [Paper] [Blog] [Video]
+'An Image Is Worth 16 x 16 Words: Transformers for Image Recognition at Scale'
+* *Paper:* https://arxiv.org/abs/2010.11929
   
-GEN3C: 3D-Informed World-Consistent Video Generation with Precise Camera Control, using Cosmos
-https://research.nvidia.com/labs/toronto-ai/GEN3C/
-
-
-### DynamiCrafter: Animating Open-domain Images with Video Diffusion Priors
-Samller Apache licensed model, can run on a rtx
-**Project page**: https://doubiiu.github.io/projects/DynamiCrafter
-
-#### Open-Sora’s 
-methodology revolves around a comprehensive training pipeline incorporating video compression, denoising, and decoding stages to process and generate video content efficiently. Using a video compression network, the model compresses videos into sequences of spatial-temporal patches in latent space, then refined through a Diffusion Transformer for denoising, followed by decoding to produce the final video output. This innovative approach allows for handling various sizes and complexities of videos with improved efficiency and reduced computational demands.
-[2025.03.12] 🔥 We released Open-Sora 2.0 (11B). 🎬 11B model achieves on-par performance with 11B HunyuanVideo & 30B Step-Video on 📐VBench & 📊Human Preference. 🛠️ Fully open-source: checkpoints and training codes for training with only $200K. [report]
-* *Project:* https://github.com/PKU-YuanGroup/Open-Sora-Plan
-* *Project:* https://hpcaitech.github.io/Open-Sora/ no windows, 24 GB RAM+
-
-#### Hunyuan-DiT and video: A Powerful Multi-Resolution Diffusion Transformer with Fine-Grained Chinese Understanding
-Most advanced opensource model, 3d and avatar aimation capabilities
-  *Report:* https://aivideo.hunyuan.tencent.com/hunyuanvideo.pdf
-  *Code:* https://github.com/Tencent/HunyuanDiT 
-  *Code:* https://github.com/Tencent/HunyuanVideo
-  *Code 3d:* [[[https://github.com/Tencent/HunyuanVideo](https://github.com/Tencent/Hunyuan3D-1](https://github.com/Tencent/Hunyuan3D-2))](https://github.com/Tencent/Hunyuan3D-2),  *Paper:* https://arxiv.org/pdf/2411.02293
+`How to train your ViT? Data, Augmentation, and Regularization in Vision Transformers`
+* *Paper:*  https://arxiv.org/abs/2106.10270
   
-## Learning Generative Interactive Environments by Trained Agent Exploration
-Proposes to improve the model by employing reinforcement learning based agents for data generation.
+Masked Autoencoders: A PyTorch Implementation https://github.com/facebookresearch/mae/blob/main/models_vit.py
 
-* *Project:* https://github.com/insait-institute/GenieRedux
-* *Paper:* https://arxiv.org/pdf/2409.06445
 
-## The Matrix: Infinite-Horizon World Generation with Real-Time Moving Control
-Infinite-Horizon World Generation with Real-Time Interaction
-We present The Matrix, the first foundational realistic world simulator capable of generating continuous 720p high-fidelity real-scene video streams with real-time, responsive control in both first- and third-person perspectives, enabling immersive exploration of richly dynamic environments.
-
-* *Project:* https://thematrix1999.github.io/
-* *Paper:* https://thematrix1999.github.io/article/the_matrix.pdf
-  
-## GameGen-X: Interactive Open-world Game Video Generation
-We introduce GameGen-X, the first diffusion transformer model specifically designed for both generating and interactively controlling open-world game videos
-
-* *Paper:* https://arxiv.org/abs/2411.00769
-
-## Diffusion for World Modeling: Visual Details Matter in Atari  DIAMOND
-DIAMOND, a diffusion world model, to train sample-efficient RL agents on Atari 100k.
-* Minecraft, CSGO
-
-* *Project and code:* https://github.com/eloialonso/diamond
-* *Demo:* https://next.journee.ai/xyz-diamond
-
-## Efficient World Models with Context-Aware Tokenization
-Δ-IRIS is a reinforcement learning agent trained in the imagination of its world model.
- 
-* *Project and code:* https://github.com/vmicheli/delta-iris
-* *Paper:* https://arxiv.org/abs/2406.19320
-  
-## AVID: Adapting Video Diffusion Models to World Models
-The key idea behind AVID is to adapt the video diffusion model to better understand and represent the real world.
-
+### Dit "Scalable Diffusion Models with Transformers" 
+* *Project:* https://github.com/facebookresearch/DiT
+* *Paper:* https://arxiv.org/pdf/2212.09748
+* OpenDiT: An acceleration for DiT training. Acceleration strategies for training progress from OpenDiT.
+ *Project and code:* https://oahzxl.github.io/PAB/   
+* PixArt: An open-source DiT-based text-to-image model. *Code:* https://github.com/PixArt-alpha/PixArt-alpha
+* Latte: An attempt to efficiently train DiT for video. *Code:* [[https://github.com/PixArt-alpha/PixArt-alph](https://github.com/Vchitect/Latte)a](https://github.com/Vchitect/Latte)
 * *Paper:* https://arxiv.org/pdf/2410.12822
 
 
