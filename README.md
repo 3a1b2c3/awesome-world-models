@@ -177,7 +177,8 @@ Source: [Hugging Face Video Generation Blog](https://huggingface.co/blog/video_g
 - **Physics IQ Benchmark**: Assesses physical reasoning in generated videos.  
   *Paper*: [Google Drive](https://drive.google.com/file/d/1ac93646QoMlFtcO_6GlcZXex7lPzRWaE/view) | [Project](https://physics-iq.github.io/)
 
-# World models history: 2013 - 2023 
+## Background 
+### World models history: 2013 - 2023 
 See list below for papers
 * 2013  Decoding “World Models” by David Ha and Jürgen Schmidhuber: A Milestone in AI Research
  * *Project:*  https://worldmodels.github.io/
@@ -185,7 +186,7 @@ See list below for papers
 * https://github.com/PatrickHua/Awesome-World-Models
 * https://github.com/GigaAI-research/General-World-Models-Survey
 
-## Background 
+
 ### Temporal consistency
 - **FramePack-P1** – [FramePack-P1](https://lllyasviel.github.io/frame_pack_gitpage/p1/)
 
