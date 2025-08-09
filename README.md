@@ -184,28 +184,7 @@ See list below for papers
 * https://github.com/PatrickHua/Awesome-World-Models
 * https://github.com/GigaAI-research/General-World-Models-Survey
 
-## Background 
-### Temporal consistency
-- **FramePack-P1** – [FramePack-P1](https://lllyasviel.github.io/frame_pack_gitpage/p1/)
 
-### ViT: Transformers for Image Recognition [Paper] [Blog] [Video]
-'An Image Is Worth 16 x 16 Words: Transformers for Image Recognition at Scale'
-* *Paper:* https://arxiv.org/abs/2010.11929
-  
-`How to train your ViT? Data, Augmentation, and Regularization in Vision Transformers`
-* *Paper:*  https://arxiv.org/abs/2106.10270
-  
-Masked Autoencoders: A PyTorch Implementation https://github.com/facebookresearch/mae/blob/main/models_vit.py
-
-
-### Dit "Scalable Diffusion Models with Transformers" 
-* *Project:* https://github.com/facebookresearch/DiT
-* *Paper:* https://arxiv.org/pdf/2212.09748
-* OpenDiT: An acceleration for DiT training. Acceleration strategies for training progress from OpenDiT.
- *Project and code:* https://oahzxl.github.io/PAB/   
-* PixArt: An open-source DiT-based text-to-image model. *Code:* https://github.com/PixArt-alpha/PixArt-alpha
-* Latte: An attempt to efficiently train DiT for video. *Code:* [[https://github.com/PixArt-alpha/PixArt-alph](https://github.com/Vchitect/Latte)a](https://github.com/Vchitect/Latte)
-* *Paper:* https://arxiv.org/pdf/2410.12822
 
 
 ## Promptable Game Models: Text-Guided Game Simulation via Masked Diffusion Models
@@ -2689,3 +2668,26 @@ Worldgen: Generate any 3d scene in seconds.
 
 ## WonderJourney: Going from Anywhere to Everywhere
 Start at any user-provided location
+
+## Background 
+### Temporal consistency
+- **FramePack-P1** – [FramePack-P1](https://lllyasviel.github.io/frame_pack_gitpage/p1/)
+
+### ViT: Transformers for Image Recognition [Paper] [Blog] [Video]
+'An Image Is Worth 16 x 16 Words: Transformers for Image Recognition at Scale'
+* *Paper:* https://arxiv.org/abs/2010.11929
+  
+`How to train your ViT? Data, Augmentation, and Regularization in Vision Transformers`
+* *Paper:*  https://arxiv.org/abs/2106.10270
+  
+Masked Autoencoders: A PyTorch Implementation https://github.com/facebookresearch/mae/blob/main/models_vit.py
+
+
+### Dit "Scalable Diffusion Models with Transformers" 
+* *Project:* https://github.com/facebookresearch/DiT
+* *Paper:* https://arxiv.org/pdf/2212.09748
+* OpenDiT: An acceleration for DiT training. Acceleration strategies for training progress from OpenDiT.
+ *Project and code:* https://oahzxl.github.io/PAB/   
+* PixArt: An open-source DiT-based text-to-image model. *Code:* https://github.com/PixArt-alpha/PixArt-alpha
+* Latte: An attempt to efficiently train DiT for video. *Code:* [[https://github.com/PixArt-alpha/PixArt-alph](https://github.com/Vchitect/Latte)a](https://github.com/Vchitect/Latte)
+* *Paper:* https://arxiv.org/pdf/2410.12822
