@@ -185,6 +185,9 @@ See list below for papers
 * https://github.com/GigaAI-research/General-World-Models-Survey
 
 ## Background 
+### Temporal consistency
+- **FramePack-P1** – [FramePack-P1](https://lllyasviel.github.io/frame_pack_gitpage/p1/)
+
 ### ViT: Transformers for Image Recognition [Paper] [Blog] [Video]
 'An Image Is Worth 16 x 16 Words: Transformers for Image Recognition at Scale'
 * *Paper:* https://arxiv.org/abs/2010.11929
@@ -193,10 +196,6 @@ See list below for papers
 * *Paper:*  https://arxiv.org/abs/2106.10270
   
 Masked Autoencoders: A PyTorch Implementation https://github.com/facebookresearch/mae/blob/main/models_vit.py
-
-## Background 
-### Temporal consistency
-- **FramePack-P1** – [FramePack-P1](https://lllyasviel.github.io/frame_pack_gitpage/p1/)
 
 
 ### Dit "Scalable Diffusion Models with Transformers" 
