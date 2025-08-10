@@ -168,7 +168,12 @@ Source: [Hugging Face Video Generation Blog](https://huggingface.co/blog/video_g
 - **Genesis**: Universal physics simulation platform for embodied/physical AI.  
   [Project & Code](https://github.com/Genesis-Embodied-AI/Genesis)
 
-## Benchmarks
+## Speedup, faster worldmodels
+### Faster worldmodels
+Objects matter: object-centric world models improve reinforcement learning in visually complex environments
+  *Paper*: https://arxiv.org/pdf/2501.16443
+
+### Benchmarks
 - **PBench**: Physical AI benchmark for world models.  
   [Details](https://research.nvidia.com/labs/dir/pbench/)
 - **E3D-Bench**: Benchmark for 3D geometric foundation models.  
@@ -176,6 +181,7 @@ Source: [Hugging Face Video Generation Blog](https://huggingface.co/blog/video_g
 - **VBench-2.9**: Video generation benchmark suite for measuring intrinsic faithfulness.
 - **Physics IQ Benchmark**: Assesses physical reasoning in generated videos.  
   *Paper*: [Google Drive](https://drive.google.com/file/d/1ac93646QoMlFtcO_6GlcZXex7lPzRWaE/view) | [Project](https://physics-iq.github.io/)
+
 
 ## Background 
 ### World models history: 2013 - 2023 
