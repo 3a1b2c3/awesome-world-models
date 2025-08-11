@@ -73,9 +73,11 @@ KlingAI | **Kling** | Closed | Proprietary
 Haliluo | **MiniMax** | Closed | Proprietary  
 THUDM | **CogVideoX** | Open | Custom  
 Genmo | **Mochi-1** | Open | Apache 2.0  
+YUME | **YUME** | Open | Apache 2.0  
 RhymesAI | **Allegro** | Open | Apache 2.0  
 Lightricks | **LTX Video** | Open | Custom  
-Tencent | **Hunyuan Video** | Open | Custom  
+Tencent | **Hunyuan Video/World** | Open | Custom  
+
 
 Source: [Hugging Face Video Generation Blog](https://huggingface.co/blog/video_gen)
 
