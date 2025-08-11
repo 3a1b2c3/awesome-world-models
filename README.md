@@ -165,13 +165,14 @@ Source: [Hugging Face Video Generation Blog](https://huggingface.co/blog/video_g
 - **Genesis**: Universal physics simulation platform for embodied/physical AI.  
   [Project & Code](https://github.com/Genesis-Embodied-AI/Genesis)
 
-## Speedup, faster worldmodels
-### Faster worldmodels
+## Speed and benchmarks
+### Faster and cheaper and world models
 #### Objects matter: object-centric world models improve reinforcement learning in visually complex environments
   *Paper*: https://arxiv.org/pdf/2501.16443
 
 #### AVID: Adapting Video Diffusion Models to World Models
   *Paper*: https://rlj.cs.umass.edu/2025/papers/RLJ_RLC_2025_64.pdf
+
 
 ### Benchmarks
 - **PBench**: Physical AI benchmark for world models.  
