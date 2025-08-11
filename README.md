@@ -11,7 +11,7 @@
   * [Humans](#humans)
   * [Mapping](#mapping)
   * [Physics](#physics)
-  * [Benchmarks](#benchmarks)
+  * [Speed and Benchmarks](#benchmarks)
 * [World Models 2023 and Before](#world-models-2023-and-before)
 * [Background](#background)
 
@@ -167,8 +167,11 @@ Source: [Hugging Face Video Generation Blog](https://huggingface.co/blog/video_g
 
 ## Speedup, faster worldmodels
 ### Faster worldmodels
-Objects matter: object-centric world models improve reinforcement learning in visually complex environments
+#### Objects matter: object-centric world models improve reinforcement learning in visually complex environments
   *Paper*: https://arxiv.org/pdf/2501.16443
+
+#### AVID: Adapting Video Diffusion Models to World Models
+  *Paper*: https://rlj.cs.umass.edu/2025/papers/RLJ_RLC_2025_64.pdf
 
 ### Benchmarks
 - **PBench**: Physical AI benchmark for world models.  
