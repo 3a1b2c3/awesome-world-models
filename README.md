@@ -84,9 +84,6 @@ Source: [Hugging Face Video Generation Blog](https://huggingface.co/blog/video_g
 ## Open Source World Models
 - **YUME** – [GitHub Repository](https://github.com/stdstu12/YUME)
 
-## World Models 2023 and Before
-*Overview of earlier models and their evolution.*
-  
 ## Game .Interactive Models
 
 ### Interactive Game Models
