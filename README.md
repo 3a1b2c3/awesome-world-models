@@ -86,7 +86,7 @@ Source: [Hugging Face Video Generation Blog](https://huggingface.co/blog/video_g
 
 ## Game .Interactive Models
 
-### Interactive Game Models
+### Interactive Game Models: Playable Demos
 - **Hunyuan-GameCraft** – Interactive game video generation with hybrid history conditioning. [Demo](https://hunyuan-gamecraft.github.io/) | [Paper](https://arxiv.org/abs/2506.17201)
 - **AIGame Engine** – AI-Native UGC engine powered by real-time world models. [Blog](https://blog.dynamicslab.ai/)
 - **Odyssey World** – Research preview of interactive video generation in real time. [Interactive Video](https://odyssey.world/introducing-interactive-video)
@@ -95,12 +95,16 @@ Source: [Hugging Face Video Generation Blog](https://huggingface.co/blog/video_g
 - **Creating New Games with Generative Interactive Videos** – [Paper](https://arxiv.org/pdf/2501.08325)
 
 ### Papers and Code
+
+#### Matrix-Game 2.0: An Open-Source, Real-Time, and Streaming Interactive World Model
+- *Project*: https://matrix-game-v2.github.io/
+
+#### GameFactory: Creating New Games with Generative Interactive Videos
+- *Project*: https://github.com/KwaiVGI/GameFactory
+
 ####  Seaweed APT2** Autoregressive Adversarial Post-Training for Real-Time Interactive Video Generation
 - *Paper*: https://seaweed-apt.com/2
 - 
-#### LTX Video
-- *Paper*: [https://arxiv.org/abs/2501.00103](https://arxiv.org/abs/2501.00103)  
-- *Code*: [GitHub Repository](https://github.com/Lightricks/LTX-Video)
 
 #### From Virtual Games to Real-World Play
 - [Website](https://wenqsun.github.io/RealPlay/)  
