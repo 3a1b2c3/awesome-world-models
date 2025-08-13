@@ -60,19 +60,10 @@ Auto-regressive generative models (like LLMs) simplify this:
 
 **Provider | Model | Open/Closed | License**  
 ---|---|---|---  
-Meta | **MovieGen** | Closed | Proprietary  
-OpenAI | **Sora** | Closed | Proprietary  
-Google | **Veo 2** | Closed | Proprietary  
-RunwayML | **Gen 3 (Alpha)** | Closed | Proprietary  
-Pika Labs | **Pika 2.0** | Closed | Proprietary  
-KlingAI | **Kling** | Closed | Proprietary  
-Haliluo | **MiniMax** | Closed | Proprietary  
-THUDM | **CogVideoX** | Open | Custom  
-Genmo | **Mochi-1** | Open | Apache 2.0  
+Google | **Genie 3** | Closed | Proprietary  
+NVIDIA | **Cosmoas** | Open | Apache
 YUME | **YUME** | Open | Apache 2.0  
-RhymesAI | **Allegro** | Open | Apache 2.0  
-Lightricks | **LTX Video** | Open | Custom  
-Tencent | **Hunyuan Video/World** | Open | Custom  
+Tencent | **Hunyuan Video/World/3d** | Open | Custom  
 
 
 Source: [Hugging Face Video Generation Blog](https://huggingface.co/blog/video_gen)
