@@ -188,12 +188,19 @@ See list below for papers
 
 
 ### Temporal consistency
-- **FramePack-P1** – [FramePack-P1](https://lllyasviel.github.io/frame_pack_gitpage/p1/)
+- **FramePack-P1** – [FramePack-P1]
+ * *Project:*  (https://lllyasviel.github.io/frame_pack_gitpage/p1/)
 Planned Anti‑Drifting
 Instead of generating video sections strictly in chronological order, FramePack‑P1 predicts distant sections first, then fills in the in-between. This “planning ahead” approach mitigates drift that tends to occur between generated segments, maintaining consistency across the video 
 
 History Discretization
 FramePack‑P1 transforms past frames into discrete token representations—using methods like K-means clustering—to create a more uniform, stable historical context. This helps reduce drift over the planned endpoints and ensures consistency between training and inference contexts
+
+
+- **Context as Memory: Scene-Consistent Interactive Long Video**
+Generation with Memory Retrieval
+ * *Paper:*  https://arxiv.org/pdf/2506.03141
+
 
 ### ViT: Transformers for Image Recognition [Paper] [Blog] [Video]
 'An Image Is Worth 16 x 16 Words: Transformers for Image Recognition at Scale'
