@@ -71,7 +71,7 @@ Source: [Hugging Face Video Generation Blog](https://huggingface.co/blog/video_g
 ## Open Source World Models
 - **YUME** – [GitHub Repository](https://github.com/stdstu12/YUME)
 
-## Game .Interactive Models
+## Game/Interactive Models
 
 ### Interactive Game Models: Playable Demos
 - **Hunyuan-GameCraft** – Interactive game video generation with hybrid history conditioning. [Demo](https://hunyuan-gamecraft.github.io/) | [Paper](https://arxiv.org/abs/2506.17201)
@@ -84,14 +84,17 @@ Source: [Hugging Face Video Generation Blog](https://huggingface.co/blog/video_g
 ### Papers and Code
 
 #### Matrix-Game 2.0: An Open-Source, Real-Time, and Streaming Interactive World Model
-- *Project*: https://matrix-game-v2.github.io/
+- *Project*: https://matrix-game-v2.github.io/ MIT License
 
 #### GameFactory: Creating New Games with Generative Interactive Videos
 - *Project*: https://github.com/KwaiVGI/GameFactory
 
 ####  Seaweed APT2** Autoregressive Adversarial Post-Training for Real-Time Interactive Video Generation
 - *Paper*: https://seaweed-apt.com/2
-- 
+
+####  Yan Foundational Interactive Video Generation
+- *Paper*:[ https://seaweed-apt.com/2](https://greatx3.github.io/Yan/)
+  
 
 #### From Virtual Games to Real-World Play
 - [Website](https://wenqsun.github.io/RealPlay/)  
