@@ -196,6 +196,8 @@ Instead of generating video sections strictly in chronological order, FramePack�
 History Discretization
 FramePack‑P1 transforms past frames into discrete token representations—using methods like K-means clustering—to create a more uniform, stable historical context. This helps reduce drift over the planned endpoints and ensures consistency between training and inference contexts
 
+- **Mixture of Contexts for Long Video Generation**
+ * *Paper:* https://arxiv.org/pdf/2508.21058
 
 - **Context as Memory: Scene-Consistent Interactive Long Video**
 Generation with Memory Retrieval
