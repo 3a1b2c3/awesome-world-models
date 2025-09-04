@@ -127,6 +127,8 @@ Source: [Hugging Face Video Generation Blog](https://huggingface.co/blog/video_g
   *Code*: [GitHub](https://github.com/wenqsun/DimensionX) | *Paper*: [https://arxiv.org/pdf/2411.04928](https://arxiv.org/pdf/2411.04928)
 - **HunyuanWorld 3D**: Playable 3D worlds from text or images.  
   *Code*: [GitHub](https://github.com/Tencent-Hunyuan/HunyuanWorld-1.0) | *Paper*: [https://arxiv.org/pdf/2507.21809](https://arxiv.org/pdf/2507.21809)
+- **/HunyuanWorld-Voyager 3D**: 3d point clouds via moGe  
+    *Code*: https://github.com/Tencent-Hunyuan/HunyuanWorld-Voyager
 - **WorldGen**: Rapid generation of any 3D scene.  
   *Code*: [GitHub](https://github.com/ZiYang-xie/)
 - **WonderJourney**: Generate connected 3D scene journeys from user input.  
