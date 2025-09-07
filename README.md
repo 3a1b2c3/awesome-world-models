@@ -49,6 +49,9 @@ Auto-regressive generative models (like LLMs) simplify this:
 4. x(t) is discrete.
 5. The predictor computes a distribution over x(t+1) and selects a value via z(t).
 
+<img width="877" height="721" alt="image" src="https://github.com/user-attachments/assets/c8b3f792-3c77-4234-8aef-d308de2c8e92" />
+A Survey of Interactive Generative Video, https://arxiv.org/pdf/2504.21853
+
 ## Commercial World Models: No Code or Papers
 - **Odyssey** – [Explorer](https://odyssey.systems/introducing-explorer#waitlist)
 - **WorldLabs** – [Blog](https://www.worldlabs.ai/blog)
