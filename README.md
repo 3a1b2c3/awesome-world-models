@@ -53,7 +53,6 @@ Auto-regressive generative models (like LLMs) simplify this:
 - **Odyssey** – [Explorer](https://odyssey.systems/introducing-explorer#waitlist)
 - **WorldLabs** – [Blog](https://www.worldlabs.ai/blog)
 - **Google Genie-3** – [DeepMind Blog](https://deepmind.google/discover/blog/genie-3-a-new-frontier-for-world-models/)
-- **Google Video Poet** – [Fliki Blog](https://fliki.ai/blog/google-videopoet)
 - **Oasis** – [Decart’s Article](https://www.decart.ai/articles/oasis-interactive-ai-video-game-model)
 - **OpenAI Sora** – [OpenAI Website](https://openai.com/sora/)  
   - *Survey Paper:* [Sora Review](https://arxiv.org/pdf/2402.17177)
@@ -80,6 +79,7 @@ Source: [Hugging Face Video Generation Blog](https://huggingface.co/blog/video_g
 - **XYZ Diamond** – Counter-Strike–like interactive game demo. [Demo](https://next.journee.ai/xyz-diamond)
 - **Promptable Game Models** – Text-Guided Game Simulation via Masked Diffusion Models. [Project](https://snap-research.github.io/promptable-game-models/) | [Paper](https://arxiv.org/pdf/2303.13472)
 - **Creating New Games with Generative Interactive Videos** – [Paper](https://arxiv.org/pdf/2501.08325)
+- **DeepVerse** - https://github.com/SOTAMak1r/DeepVerse
 
 ### Papers and Code
 
