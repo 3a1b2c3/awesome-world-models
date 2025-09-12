@@ -192,6 +192,9 @@ See list below for papers
 * https://github.com/PatrickHua/Awesome-World-Models
 * https://github.com/GigaAI-research/General-World-Models-Survey
 
+### Spatial consistency
+- **Video World Models with Long-term Spatial Memory **
+ * *Paper:* https://spmem.github.io/
 
 ### Temporal consistency
 - **FramePack-P1** – [FramePack-P1]
