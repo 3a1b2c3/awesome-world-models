@@ -197,6 +197,9 @@ See list below for papers
  * *Paper:* https://spmem.github.io/
 
 ### Temporal consistency
+- ** Mixture of Contexts for Long Video Generation **
+ * *Paper:* https://arxiv.org/pdf/2508.21058
+   
 - **FramePack-P1** – [FramePack-P1]
  * *Project:*  (https://lllyasviel.github.io/frame_pack_gitpage/p1/)
 Planned Anti‑Drifting
