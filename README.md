@@ -1,4 +1,5 @@
 # World Models Overview
+A world model is a generative system that autoregressively generates image or video frames, conditioned on actions or camera pose.  
 
 ## Table of Contents
 * [Yann LeCun's Definition (a bit technical)](#yann-lecuns-definition-a-bit-technical)
