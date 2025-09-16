@@ -149,6 +149,7 @@ Source: [Hugging Face Video Generation Blog](https://huggingface.co/blog/video_g
 ## Humans
 - **HumanDiT**  
   [Project](https://agnjason.github.io/HumanDiT-page/)
+  
 
 ## Mapping
 - **Mars**: Controllable video synthesis with accurate 3D reconstruction.  
@@ -157,6 +158,9 @@ Source: [Hugging Face Video Generation Blog](https://huggingface.co/blog/video_g
   [Demo](https://cfeng16.github.io/gps-gen/)
 - **Streetscapes**: Consistent street view generation using autoregressive video diffusion.  
   *Paper*: [https://arxiv.org/abs/2407.13759](https://arxiv.org/abs/2407.13759)
+
+## Robotic
+  *Paper*: https://github.com/AgibotTech/Genie-Envisioner
 
 ## Physics
 - **V-JEPA 2**: World model and physical reasoning benchmark.  
