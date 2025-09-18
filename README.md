@@ -72,7 +72,9 @@ Tencent | **Hunyuan Video/World/3d** | Open | Custom
 Source: [Hugging Face Video Generation Blog](https://huggingface.co/blog/video_gen)
 
 ## Open Source World Models
-- **YUME** – [GitHub Repository](https://github.com/stdstu12/YUME)
+- **YUME**
+  [GitHub Repository](https://github.com/stdstu12/YUME)
+  
 
 ## Game/Interactive Models
 
@@ -127,6 +129,8 @@ Source: [Hugging Face Video Generation Blog](https://huggingface.co/blog/video_g
   [Demo](https://shotadapter.github.io/)
 
 ## 3D/4D World Creation
+- **Worldexplorer**
+-  Code: https://github.com/mschneider456/worldexplorer
 - **DimensionX**: Generate any 3D/4D scene from a single image using controllable video diffusion.  
   *Code*: [GitHub](https://github.com/wenqsun/DimensionX) | *Paper*: [https://arxiv.org/pdf/2411.04928](https://arxiv.org/pdf/2411.04928)
 - **HunyuanWorld 3D**: Playable 3D worlds from text or images.  
