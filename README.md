@@ -57,17 +57,18 @@ A Survey of Interactive Generative Video, https://arxiv.org/pdf/2504.21853
 - **Odyssey** – [Explorer](https://odyssey.systems/introducing-explorer#waitlist)
 - **WorldLabs** – [Blog](https://www.worldlabs.ai/blog)
 - **Google Genie-3** – [DeepMind Blog](https://deepmind.google/discover/blog/genie-3-a-new-frontier-for-world-models/)
+- https://www.cursor-ide.com/blog/genie-3-ai-model
+  
 - **Oasis** – [Decart’s Article](https://www.decart.ai/articles/oasis-interactive-ai-video-game-model)
 - **OpenAI Sora** – [OpenAI Website](https://openai.com/sora/)  
   - *Survey Paper:* [Sora Review](https://arxiv.org/pdf/2402.17177)
 
 **Provider | Model | Open/Closed | License**  
 ---|---|---|---  
-Google | **Genie 3** | Closed | Proprietary  
 NVIDIA | **Cosmoas** | Open | Apache
 YUME | **YUME** | Open | Apache 2.0  
 Tencent | **Hunyuan Video/World/3d** | Open | Custom  
-
+Matrix 2
 
 Source: [Hugging Face Video Generation Blog](https://huggingface.co/blog/video_gen)
 
