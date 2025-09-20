@@ -204,11 +204,15 @@ See list below for papers
 ### Spatial consistency
 - **Video World Models with Long-term Spatial Memory **
  * *Paper:* https://spmem.github.io/
-
+   
+- ** WORLDMEM: Long-term Consistent World Simulation with Memory and code
+ * *Proect and Code:*  https://github.com/xizaoqu/WorldMem
+   
 ### Temporal consistency
 - ** Mixture of Contexts for Long Video Generation **
  * *Paper:* https://arxiv.org/pdf/2508.21058
-   
+
+
 - **FramePack-P1** – [FramePack-P1]
  * *Project:*  (https://lllyasviel.github.io/frame_pack_gitpage/p1/)
 Planned Anti‑Drifting
