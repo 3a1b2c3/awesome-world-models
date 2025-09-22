@@ -21,7 +21,8 @@ A world model is a generative system that autoregressively generates image or vi
 Source: [Hugging Face Video Generation Blog](https://huggingface.co/blog/video_gen)
 
 ## Definition  
-World Models blend generative AI with reinforcement learning. If a language model compresses all the text on the internet, a world model does the equivalent for video data—compressing the visual world (e.g., YouTube).
+World Models blend generative AI with reinforcement learning. 
+If a language model compresses all the text on the internet, a world model does the equivalent for video data—compressing the visual world (e.g., YouTube).
 
 For a more accessible explanation, see this [YouTube video](https://www.youtube.com/watch?v=iv-5mZ_9CPY).
 
