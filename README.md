@@ -72,11 +72,6 @@ Matrix 2
 
 Source: [Hugging Face Video Generation Blog](https://huggingface.co/blog/video_gen)
 
-## Open Source World Models
-- **YUME**
-  [GitHub Repository](https://github.com/stdstu12/YUME)
-  
-
 ## Game/Interactive Models
 
 ### Interactive Game Models: Playable Demos
@@ -130,24 +125,36 @@ Source: [Hugging Face Video Generation Blog](https://huggingface.co/blog/video_g
   [Demo](https://shotadapter.github.io/)
 
 ## 3D/4D World Creation
+- **WorldForge:** Unlocking Emergent 3D/4D Generation in Video Diffusion via Training-Free Guidance
+  *Papere*: https://worldforge-agi.github.io/
+
 - **Worldexplorer**
--  Code: https://github.com/mschneider456/worldexplorer
+  *Code*: https://github.com/mschneider456/worldexplorer
+  
 - **DimensionX**: Generate any 3D/4D scene from a single image using controllable video diffusion.  
   *Code*: [GitHub](https://github.com/wenqsun/DimensionX) | *Paper*: [https://arxiv.org/pdf/2411.04928](https://arxiv.org/pdf/2411.04928)
+  
 - **HunyuanWorld 3D**: Playable 3D worlds from text or images.  
   *Code*: [GitHub](https://github.com/Tencent-Hunyuan/HunyuanWorld-1.0) | *Paper*: [https://arxiv.org/pdf/2507.21809](https://arxiv.org/pdf/2507.21809)
+  
 - **/HunyuanWorld-Voyager 3D**: 3d point clouds via moGe  
     *Code*: https://github.com/Tencent-Hunyuan/HunyuanWorld-Voyager
+  
 - **WorldGen**: Rapid generation of any 3D scene.  
   *Code*: [GitHub](https://github.com/ZiYang-xie/)
+  
 - **WonderJourney**: Generate connected 3D scene journeys from user input.  
   *Paper*: [https://arxiv.org/pdf/2312.03884](https://arxiv.org/pdf/2312.03884)
+  
 - **3D Generalist**: Vision-language-action models for 3D world creation.  
   [Project](https://3d-generalist.pages.dev/)
+  
 - **World-Consistent Video Diffusion**: With explicit 3D modeling.  
   [Project](https://zqh0253.github.io/wvd/)
+  
 - **Matrix3D**: All-in-one large photogrammetry model.  
   *Paper*: [https://arxiv.org/pdf/2502.07685](https://arxiv.org/pdf/2502.07685)
+  
 - **Domain-Free Generation of 3D Gaussian Splatting Scenes**  
   *Code*: [Website](https://luciddreamer-cvlab.github.io/) | *Paper*: [https://arxiv.org/abs/2311.13384](https://arxiv.org/abs/2311.13384)
 
