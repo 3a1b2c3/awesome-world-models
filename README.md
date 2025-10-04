@@ -214,12 +214,14 @@ See list below for papers
  * *Paper:* https://spmem.github.io/
    
 - ** WORLDMEM: Long-term Consistent World Simulation with Memory and code
- * *Proect and Code:*  https://github.com/xizaoqu/WorldMem
+ * *Project and Code:*  https://github.com/xizaoqu/WorldMem
    
 ### Temporal consistency
 - ** Mixture of Contexts for Long Video Generation **
  * *Paper:* https://arxiv.org/pdf/2508.21058
 
+- ** LongLive: Real-time Interactive Long Video Generationn **
+ * *Project and Code:* https://nvlabs.github.io/LongLive/#teaser
 
 - **FramePack-P1** – [FramePack-P1]
  * *Project:*  (https://lllyasviel.github.io/frame_pack_gitpage/p1/)
