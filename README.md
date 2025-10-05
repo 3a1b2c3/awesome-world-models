@@ -186,6 +186,7 @@ Source: [Hugging Face Video Generation Blog](https://huggingface.co/blog/video_g
 #### Objects matter: object-centric world models improve reinforcement learning in visually complex environments
   *Paper*: https://arxiv.org/pdf/2501.16443
 
+
 #### AVID: Adapting Video Diffusion Models to World Models
   *Paper*: https://rlj.cs.umass.edu/2025/papers/RLJ_RLC_2025_64.pdf
 
@@ -196,6 +197,7 @@ Source: [Hugging Face Video Generation Blog](https://huggingface.co/blog/video_g
 - **E3D-Bench**: Benchmark for 3D geometric foundation models.  
   [Website](https://e3dbench.github.io/)
 - **VBench-2.9**: Video generation benchmark suite for measuring intrinsic faithfulness.
+- https://github.com/Vchitect/VBench
 - **Physics IQ Benchmark**: Assesses physical reasoning in generated videos.  
   *Paper*: [Google Drive](https://drive.google.com/file/d/1ac93646QoMlFtcO_6GlcZXex7lPzRWaE/view) | [Project](https://physics-iq.github.io/)
 
