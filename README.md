@@ -119,7 +119,10 @@ Source: [Hugging Face Video Generation Blog](https://huggingface.co/blog/video_g
 - **Open-Sora**: Survey and open-source training pipelines.
 - **Hunyuan-DiT / HunyuanVideo**: Advanced models with 3D capabilities.
 
-## Camera Control
+## Camera and motion Control
+- **Uni3C**: Unifying Precisely 3D-Enhanced Camera and Human Motion Controls for Video Generation
+  *Code*:  https://alibaba-damo-academy.github.io/Uni3C/
+  
 - **Cavia**: Camera-controllable multi-view video diffusion with view-integrated attention.  
   *Paper*: [https://arxiv.org/pdf/2410.10774](https://arxiv.org/pdf/2410.10774)
 - **ShotAdapter**: Text-to-multi-shot video generation with diffusion models.  
