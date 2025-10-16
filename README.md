@@ -129,8 +129,15 @@ Source: [Hugging Face Video Generation Blog](https://huggingface.co/blog/video_g
   [Demo](https://shotadapter.github.io/)
 
 ## 3D/4D World Creation
+
+- **VIST3A** — Text-to-3D by Stitching a Multi-view Reconstruction Network to a Video Generator,
+a new framework that connects the best of two worlds:
+Video diffusion models for rich latent visual generation, and
+Feed-forward 3D models (like VGGT, AnySplat, or MVDUSt3R) for geometric reconstruction.
+  *Project*: https://gohyojun15.github.io/VIST3A/
+
 - **WorldForge:** Unlocking Emergent 3D/4D Generation in Video Diffusion via Training-Free Guidance
-  *Papere*: https://worldforge-agi.github.io/
+  *Paper*: https://worldforge-agi.github.io/
 
 - **Worldexplorer**
   *Code*: https://github.com/mschneider456/worldexplorer
