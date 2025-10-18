@@ -186,6 +186,8 @@ Feed-forward 3D models (like VGGT, AnySplat, or MVDUSt3R) for geometric reconstr
   *Paper*: https://github.com/AgibotTech/Genie-Envisioner
 
 ## Physics
+https://github.com/minnie-lin/Awesome-Physics-Cognition-based-Video-Generation
+
 - **V-JEPA 2**: World model and physical reasoning benchmark.  
   [Blog](https://ai.meta.com/blog/v-jepa-2-world-model-benchmarks/)
 - **Genesis**: Universal physics simulation platform for embodied/physical AI.  
