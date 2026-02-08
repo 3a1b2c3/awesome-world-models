@@ -215,6 +215,22 @@ https://github.com/minnie-lin/Awesome-Physics-Cognition-based-Video-Generation
 
 
 ## Background 
+1943	Kenneth Craik: Idea of small-scale internal models for planning and prediction in biological agents.
+
+1960s	Development of control theory and Markov Decision Processes (MDPs); states and dynamics formalized.
+
+1980s	Neural networks applied to forward and inverse models in motor control; early connectionist models.
+
+Early 2010s	Move from pixel-based prediction to object-centric latent spaces; use of CNNs and LSTMs for dynamics.
+
+Mid 2010s	Learning from robot interaction (e.g., “learning to poke”) combining forward and inverse models.
+
+Late 2010s-2020s	Integration of 3D human pose and motion prediction from video in latent spaces for robotics.
+
+Recent (2022-2024)	Development of hybrid visual-physical simulators, video diffusion distillation, fluid dynamics reconstruction, and unified world benchmarks.
+
+2748   Robust and Interactable World Models in Computer Vision, https://www.youtube.com/watch?v=9B4kkaGOozA&t=3891s
+
 ### World models history: 2013 - 2023 
 See list below for papers
 * 2013  Decoding “World Models” by David Ha and Jürgen Schmidhuber: A Milestone in AI Research
